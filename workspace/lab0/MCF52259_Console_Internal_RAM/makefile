@@ -71,7 +71,7 @@ all: lab0.elf
 endif
 
 # Tool invocations
-lab0.elf: $(OBJS) $(USER_OBJS) C:/Documents\ and\ Settings/student/Desktop/Dropbox/Study/EE\ 357/Lab/workspace/lab0/Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf
+lab0.elf: $(OBJS) $(USER_OBJS) C:/Users/johnny/Desktop/Dropbox/Study/EE\ 357/Lab/workspace/lab0/Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf
 	@echo 'Building target: $@'
 	@echo 'Invoking: ColdFire Linker'
 	"C:\Program Files\Freescale\CW MCU v10.0\eclipse\../MCU/ColdFire_Tools/Command_Line_Tools/mwldmcf" @"lab0.args" -o "lab0.elf"  $(USER_OBJS_QUOTED) 

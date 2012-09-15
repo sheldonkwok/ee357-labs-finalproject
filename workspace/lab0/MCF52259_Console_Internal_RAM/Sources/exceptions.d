@@ -1,10 +1,10 @@
-Sources/exceptions.obj: C:\Documents\ and\ Settings\student\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Sources\exceptions.c \
+Sources/exceptions.obj: C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Sources\exceptions.c \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\lib_ewl.prefix \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\common.prefix \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\ewl_c_version.h \
-	C:\Documents\ and\ Settings\student\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Headers\exceptions.h \
-	C:\Documents\ and\ Settings\student\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Settings\Startup_Code\startcf.h \
-	C:\Documents\ and\ Settings\student\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Headers\support_common.h \
+	C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Headers\exceptions.h \
+	C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Settings\Startup_Code\startcf.h \
+	C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Headers\support_common.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_SCM.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_FBCS.h \
@@ -33,7 +33,7 @@ Sources/exceptions.obj: C:\Documents\ and\ Settings\student\Desktop\Dropbox\Stud
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_USB_OTG.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_CFM.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_RNGA.h \
-	C:\Documents\ and\ Settings\student\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Headers\MCF52259_sysinit.h \
+	C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\lab0\Project_Headers\MCF52259_sysinit.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\ansi_parms.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\ewlGlobals.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\coldfire\ansi_prefix.CF.h \

@@ -13,8 +13,7 @@ cpu_pause(int usecs)
     MCF_DTIM3_DTRR = (uint32)(usecs - 1);
     MCF_DTIM3_DTER = MCF_DTIM_DTER_REF;
     MCF_DTIM3_DTMR = 0
-//        | MCF_DTIM_DTMR_PS(SYSTEM_CLOCK_KHZ / 1000)
-          | MCF_DTIM_DTMR_PS(8000 / 1000)
+        | MCF_DTIM_DTMR_PS(SYSTEM_CLOCK_KHZ / 1000)
         | MCF_DTIM_DTMR_ORRI
         | MCF_DTIM_DTMR_FRR
         | MCF_DTIM_DTMR_CLK_DIV1
@@ -122,8 +121,9 @@ TRKAccessFile(long command, unsigned long file_handle, unsigned long *length_ptr
 
 #define SYNCHRONOUS  1
 
+unsigned long mybufferi = 0;
 static
-void
+int
 myputchar(char ch)
 {
     static unsigned long bufferi;
@@ -133,6 +133,10 @@ myputchar(char ch)
         buffer[bufferi++] = ch;
     }
     if ((! ch && bufferi) || (SYNCHRONOUS && ch == '\n') || bufferi == sizeof(buffer)) {
+        if(SYNCHRONOUS && ch == '\n')
+        	mybufferi = 0;
+        else
+        	mybufferi += bufferi;
         TRKAccessFile(0xD0, 0, &bufferi, buffer);
         bufferi = 0;
     }
@@ -288,4 +292,13 @@ flush(void)
     mcf5xxx_irq_enable();
 }
 
+int
+myasmputc(uint32 c)
+{
+    mcf5xxx_irq_disable();
+	myputchar((char) c);
+    myputchar('\0');
+    mcf5xxx_irq_enable();
+
+}
 // **************************************************************************

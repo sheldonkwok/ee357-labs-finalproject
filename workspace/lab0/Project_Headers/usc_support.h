@@ -11,7 +11,9 @@ void mcf5xxx_irq_enable();
 void mcf5xxx_irq_disable();
 void mcf5xxx_set_handler (int , void (*handler) (void));
 
-static void myputchar(char ch);
+static int myputchar(char ch);
 static int myputchars(char *s, int n);
 int myprintf(char *format, ...);
+void flush(void);
+int myasmputc(uint32 c);
 #endif
