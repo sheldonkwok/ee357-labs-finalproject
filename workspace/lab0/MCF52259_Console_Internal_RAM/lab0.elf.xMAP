@@ -25,36 +25,36 @@
   200009A4 00000004 .text   _ExitProcess	(startcf.obj)
   200009A8 0000014E .text   clear_mem	(startcf.obj)
   20000AF6 0000009A .text   _startup	(startcf.obj)
-  20000B90 00000052 .text   main	(main.obj)
-  20000BE2 00000004 .text   TrapHandler_printf	(exceptions.obj)
-  20000BE6 000001E4 .text   mcf_exception_handler	(exceptions.obj)
-  20000DCA 00000020 .text   asm_exception_handler	(exceptions.obj)
-  20000DEA 00000008 .text   mcf5xxx_wr_vbr	(exceptions.obj)
-  20000DF2 00000058 .text   initialize_exceptions	(exceptions.obj)
-  20000E4A 00000016 .text   TRKAccessFile	(console_io_cf.obj)
-  20000E60 0000007A .text   __access_file	(console_io_cf.obj)
-  20000EDA 00000020 .text   __write_console	(console_io_cf.obj)
-  20000EFA 0000001E .text   pll_init	(MCF52259_sysinit.obj)
-  20000F18 00000052 .text   __initialize_hardware	(MCF52259_sysinit.obj)
-  20000F6A 00000020 .text   memchr	(libc.a mem.o          )
-  20000F8A 00000028 .text   __ConsoleWrite	(libc.a printf.o       )
-  20000FB2 00000022 .text   printf_console	(libc.a printf.o       )
-  20000FD4 00000010 .text   strlen	(libc.a string.o       )
-  20000FE4 00000030 .text   strchr	(libc.a string.o       )
-  20001014 00000026 .text   isdigit	(libc.a strtold.o      )
-  2000103A 000002A8 .text   parse_format	(libc.a printformat_.o )
-  200012E2 0000002A .text   set_base	(libc.a printformat_.o )
-  2000130C 000000D6 .text   justify_conversion	(libc.a printformat_.o )
-  200013E2 00000114 .text   long2str	(libc.a printformat_.o )
-  200014F6 000003F8 .text   __pformatter	(libc.a printformat_.o )
-  200018EE 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
-  2000190A 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
-  20001936 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
-  20001944 00000040 .rodata @23	(main.obj)
-  20001984 00000081 .rodata _ctypes_	(libc.a ctype.o        )
-  20001A05 00000001 .rodata @609	(libc.a printformat_.o )
-#>20001A08          ___ROM_AT (linker command file)
-#>20001A08          ___DATA_ROM (linker command file)
+  20000B90 00000022 .text   main	(main.obj)
+  20000BB2 00000004 .text   TrapHandler_printf	(exceptions.obj)
+  20000BB6 000001E4 .text   mcf_exception_handler	(exceptions.obj)
+  20000D9A 00000020 .text   asm_exception_handler	(exceptions.obj)
+  20000DBA 00000008 .text   mcf5xxx_wr_vbr	(exceptions.obj)
+  20000DC2 00000058 .text   initialize_exceptions	(exceptions.obj)
+  20000E1A 00000016 .text   TRKAccessFile	(console_io_cf.obj)
+  20000E30 0000007A .text   __access_file	(console_io_cf.obj)
+  20000EAA 00000020 .text   __write_console	(console_io_cf.obj)
+  20000ECA 0000001E .text   pll_init	(MCF52259_sysinit.obj)
+  20000EE8 00000052 .text   __initialize_hardware	(MCF52259_sysinit.obj)
+  20000F3A 00000020 .text   memchr	(libc.a mem.o          )
+  20000F5A 00000028 .text   __ConsoleWrite	(libc.a printf.o       )
+  20000F82 00000022 .text   printf_console	(libc.a printf.o       )
+  20000FA4 00000010 .text   strlen	(libc.a string.o       )
+  20000FB4 00000030 .text   strchr	(libc.a string.o       )
+  20000FE4 00000026 .text   isdigit	(libc.a strtold.o      )
+  2000100A 000002A8 .text   parse_format	(libc.a printformat_.o )
+  200012B2 0000002A .text   set_base	(libc.a printformat_.o )
+  200012DC 000000D6 .text   justify_conversion	(libc.a printformat_.o )
+  200013B2 00000114 .text   long2str	(libc.a printformat_.o )
+  200014C6 000003F8 .text   __pformatter	(libc.a printformat_.o )
+  200018BE 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  200018DA 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  20001906 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+  20001914 00000040 .rodata @24	(main.obj)
+  20001954 00000081 .rodata _ctypes_	(libc.a ctype.o        )
+  200019D5 00000001 .rodata @609	(libc.a printformat_.o )
+#>200019D8          ___ROM_AT (linker command file)
+#>200019D8          ___DATA_ROM (linker command file)
 
 # .data
 #>20005000          ___DATA_RAM (linker command file)
@@ -91,10 +91,10 @@
 #>20005C08          __SP_INIT (linker command file)
 #>20005408          ___mem_limit (linker command file)
 #>00000010          ___stack_safety (linker command file)
-#>20001A0C          _romp_at (linker command file)
+#>200019DC          _romp_at (linker command file)
 
 # .romp
-#>20001A0C          __S_romp (linker command file)
+#>200019DC          __S_romp (linker command file)
 
 
 # Memory map:
@@ -102,12 +102,12 @@
   20000000 20000000 00000000 .vectorram vectorram
   20000500 20000500 00000000 .code      code
   20000500 20000500 00000400 .vectors   code
-  20000900 20000900 00001108 .text      code
+  20000900 20000900 000010D8 .text      code
   20005000 20005000 00000000 .userram   userram
-  20005000 20001A08 00000004 .data      userram
+  20005000 200019D8 00000004 .data      userram
   20005004 20005004 00000004 .bss       userram
   20005008 20005008 00000000 .custom    userram
-  20005008 20001A0C 00000018 .romp      userram
+  20005008 200019DC 00000018 .romp      userram
 
-# Link start time: Fri Sep 21 15:50:46 2012
-# Link end time: Fri Sep 21 15:50:47 2012
+# Link start time: Sat Sep 22 10:12:22 2012
+# Link end time: Sat Sep 22 10:12:23 2012

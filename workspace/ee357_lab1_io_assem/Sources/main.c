@@ -1,8 +1,7 @@
 /*
- * main implementation: use this sample to create your own application
+ * Johnny Jung - Lab 1
  *
  */
-
 
 #include "support_common.h" /* include peripheral declarations and more */
 #if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
@@ -11,26 +10,25 @@
 #include "usc_support.h"
 #endif
 
-
 int main(void)
-{
-	int counter = 0;
+{	
+	int counter = 0;	
 
-	#if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
-		printf("Hello World in C++ from MCF52259 derivative on MCF52259 board\n\r");
-	#endif
-	
 	asm{
 		// Setup for Switch / LED
 		move.l #0x0f,d0
 		move.b d0,0x40100074 	// 00001111 into PDDPAR	(Switch)
+		
 		move.b d0,0x4010002C	// 00001111 into DDRDD	(Switch)
+		
 		move.b d0,0x40100027	// 00001111 into DDRTC	(LED)
+		
 		move.l #0,d0
 		move.b d0,0x4010006F 	// 00000000 into PTCPAR	(LED)
 		
 		// Actual I/O
 		move.b 0x40100044,d1	// move switch input to D1
+		
 		eori.l #0xf0,d1			// flip 4MSB bits -> can also do not.l d1
 		lsr.l #4,d1				// get rid of 4LSB bits 
 		move.b d1,0x4010000F	// D1 into PORTTC
@@ -39,9 +37,9 @@ int main(void)
 	L1: subq.l #1, d1
 		andi.l #0x0f, d1
 		move.b d1,0x4010000F
+		
 		bra L1
 		
-
 		/*	ARI w/ Displacement 
 		move.l #0x40100000,A1	// 0x40100000 into A1
 		move.l #0x0f,d0			
@@ -61,9 +59,9 @@ int main(void)
 		move.b d1,0x0F(A1)
 		bra L2
 		*/
+		
+		
 	}
 	
-	for(;;) {	   
-	   	counter++;
-	}
+	for(;;) { counter++; }
 }

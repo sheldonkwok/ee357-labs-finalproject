@@ -24,7 +24,9 @@ int main(void)
 	
 	asm {
 		
-
+	C1:	MOVE.W #-1,D1
+		MOVE.L C1+4,D0
+		
 		/* Question #3
 		move.l #0xabcd0123,D0
 		move.l #0x12345678,D1
