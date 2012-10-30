@@ -93,6 +93,6 @@ ON:  	SUBI.l #1,d3
 OFF: 	SUBI.l #1,d3
 		BNE OFF
 		
-		JSR AGAIN 				// LOOP FOREVER - Keeps Blinking
+		BRA AGAIN 				// LOOP FOREVER - Keeps Blinking
 		
 		rts // never reaches here...
