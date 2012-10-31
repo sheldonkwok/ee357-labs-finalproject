@@ -1,0 +1,6 @@
+#Fri Sep 21 15:56:14 PDT 2012
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=directive

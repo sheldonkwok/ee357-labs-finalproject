@@ -1,0 +1,858 @@
+!SESSION 2012-10-30 02:51:00.553 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.138
+!MESSAGE Cannot backup current configuration
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.186
+!MESSAGE Could not rename configuration temp file
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.271
+!MESSAGE Could not install bundle plugins/com.ibm.icu_3.8.1.v20080530.jar   Bundle "com.ibm.icu" version "3.8.1.v20080530" has already been installed from: reference:file:plugins/com.ibm.icu_3.8.1.v20080530.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.274
+!MESSAGE Could not install bundle plugins/com.jcraft.jsch_0.1.37.v200803061811.jar   Bundle "com.jcraft.jsch" version "0.1.37.v200803061811" has already been installed from: reference:file:plugins/com.jcraft.jsch_0.1.37.v200803061811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.276
+!MESSAGE Could not install bundle plugins/javax.servlet.jsp_2.0.0.v200806031607.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200806031607" has already been installed from: reference:file:plugins/javax.servlet.jsp_2.0.0.v200806031607.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.278
+!MESSAGE Could not install bundle plugins/javax.servlet_2.4.0.v200806031604.jar   Bundle "javax.servlet" version "2.4.0.v200806031604" has already been installed from: reference:file:plugins/javax.servlet_2.4.0.v200806031604.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.279
+!MESSAGE Could not install bundle plugins/org.apache.ant_1.7.0.v200803061910/   Bundle "org.apache.ant" version "1.7.0.v200803061910" has already been installed from: reference:file:plugins/org.apache.ant_1.7.0.v200803061910
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.281
+!MESSAGE Could not install bundle plugins/org.apache.commons.el_1.0.0.v200806031608.jar   Bundle "org.apache.commons.el" version "1.0.0.v200806031608" has already been installed from: reference:file:plugins/org.apache.commons.el_1.0.0.v200806031608.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.283
+!MESSAGE Could not install bundle plugins/org.apache.commons.logging_1.0.4.v20080605-1930.jar   Bundle "org.apache.commons.logging" version "1.0.4.v20080605-1930" has already been installed from: reference:file:plugins/org.apache.commons.logging_1.0.4.v20080605-1930.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.285
+!MESSAGE Could not install bundle plugins/org.apache.jasper_5.5.17.v200806031609.jar   Bundle "org.apache.jasper" version "5.5.17.v200806031609" has already been installed from: reference:file:plugins/org.apache.jasper_5.5.17.v200806031609.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.287
+!MESSAGE Could not install bundle plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene.analysis" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.301
+!MESSAGE Could not install bundle plugins/org.apache.lucene_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.304
+!MESSAGE Could not install bundle plugins/org.eclipse.ant.core_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ant.core" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ant.core_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.307
+!MESSAGE Could not install bundle plugins/org.eclipse.compare_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.compare" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.compare_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.308
+!MESSAGE Could not install bundle plugins/org.eclipse.core.boot_3.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.boot" version "3.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.boot_3.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.309
+!MESSAGE Could not install bundle plugins/org.eclipse.core.commands_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.commands" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.commands_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.310
+!MESSAGE Could not install bundle plugins/org.eclipse.core.contenttype_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.contenttype" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.contenttype_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.312
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.beans_1.1.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.databinding.beans" version "1.1.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.beans_1.1.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.314
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding_1.1.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.databinding" version "1.1.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.databinding_1.1.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.315
+!MESSAGE Could not install bundle plugins/org.eclipse.core.expressions_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.expressions" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.expressions_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.317
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filebuffers_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filebuffers" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filebuffers_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.318
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filesystem.win32.x86" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.320
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem_1.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filesystem" version "1.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem_1.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.321
+!MESSAGE Could not install bundle plugins/org.eclipse.core.jobs_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.jobs" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.jobs_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.322
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net.win32.x86_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.net.win32.x86" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.net.win32.x86_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.323
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.net" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.net_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.325
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.compatibility_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources.compatibility" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources.compatibility_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.328
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.win32.x86_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources.win32.x86" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources.win32.x86_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.329
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.330
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.runtime.compatibility.auth" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.331
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.FSL_b02025-A22/   Bundle "org.eclipse.core.runtime.compatibility.registry" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.332
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.runtime.compatibility" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.334
+!MESSAGE Could not install bundle plugins/org.eclipse.core.variables_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.variables" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.variables_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.337
+!MESSAGE Could not install bundle plugins/org.eclipse.cvs_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.cvs" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.cvs_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.342
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.core_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.debug.core" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.debug.core_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.348
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.debug.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.debug.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.349
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.filetransfer_3.0.0.200910281307.jar   Bundle "org.eclipse.ecf.filetransfer" version "3.0.0.200910281307" has already been installed from: reference:file:plugins/org.eclipse.ecf.filetransfer_3.0.0.200910281307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.351
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.identity" version "2.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.351
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.provider.filetransfer.ssl" version "1.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.353
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.200910281307.jar   Bundle "org.eclipse.ecf.provider.filetransfer" version "3.0.1.200910281307" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.200910281307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.355
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.ssl" version "1.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.356
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf" version "2.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.358
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.app_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.app" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.app_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.361
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.common_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.common" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.common_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.362
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.event_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.event" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.event_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.362
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.frameworkadmin.equinox" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.363
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.frameworkadmin" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.366
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.jetty_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.jetty" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.jetty_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.368
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.registry_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.registry" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.registry_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.368
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.servlet_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.servlet" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.servlet_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.370
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.jsp.jasper.registry" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.371
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.jsp.jasper" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.372
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.101.FSL_b02025-A22/   Bundle "org.eclipse.equinox.launcher.win32.win32.x86" version "1.0.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.101.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.374
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher_1.0.101.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.launcher" version "1.0.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher_1.0.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.375
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.artifact.repository_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.artifact.repository" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.artifact.repository_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.377
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.console_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.console" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.console_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.378
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.core_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.core" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.core_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.381
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director.app_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.director.app" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director.app_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.382
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.directorywatcher_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.directorywatcher" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.directorywatcher_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.383
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.director" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.384
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.engine_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.engine" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.engine_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.386
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.exemplarysetup" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.388
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.extensionlocation_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.extensionlocation" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.extensionlocation_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.389
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.garbagecollector_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.garbagecollector" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.garbagecollector_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.390
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.jarprocessor_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.jarprocessor" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.jarprocessor_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.391
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.generator_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata.generator" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.generator_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.392
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.repository_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata.repository" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.repository_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.393
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.395
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.publisher_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.publisher" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.publisher_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.397
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.reconciler.dropins" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.399
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository.tools_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.repository.tools" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository.tools_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.400
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.repository" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.402
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.touchpoint.eclipse" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.403
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.touchpoint.natives" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.404
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui.sdk.scheduler" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.405
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui.sdk" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.408
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.408
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatechecker_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.updatechecker" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatechecker_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.409
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatesite_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.updatesite" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatesite_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.410
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.preferences_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.preferences" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.preferences_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.412
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.registry_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.registry" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.registry_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.413
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.ui_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security.ui" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.ui_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.416
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.win32.x86_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security.win32.x86" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.win32.x86_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.418
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.419
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.simpleconfigurator.manipulator_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.simpleconfigurator.manipulator" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.simpleconfigurator.manipulator_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.421
+!MESSAGE Could not install bundle plugins/org.eclipse.help.appserver_3.1.300.FSL_b02025-A22.jar   Bundle "org.eclipse.help.appserver" version "3.1.300.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.appserver_3.1.300.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.422
+!MESSAGE Could not install bundle plugins/org.eclipse.help.base_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.base" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.base_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.429
+!MESSAGE Could not install bundle plugins/org.eclipse.help.ui_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.ui" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.ui_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.430
+!MESSAGE Could not install bundle plugins/org.eclipse.help.webapp_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.webapp" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.webapp_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.431
+!MESSAGE Could not install bundle plugins/org.eclipse.help_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.433
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.databinding_1.2.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface.databinding" version "1.2.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface.databinding_1.2.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.435
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.text_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface.text" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface.text_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.436
+!MESSAGE Could not install bundle plugins/org.eclipse.jface_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.436
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.core_1.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.jsch.core" version "1.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jsch.core_1.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.439
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.ui_1.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.jsch.ui" version "1.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jsch.ui_1.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.440
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.core.refactoring_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ltk.core.refactoring" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ltk.core.refactoring_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.441
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.ui.refactoring_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ltk.ui.refactoring" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ltk.ui.refactoring_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.446
+!MESSAGE Could not install bundle plugins/org.eclipse.platform.doc.user_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.platform.doc.user" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform.doc.user_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.448
+!MESSAGE Could not install bundle plugins/org.eclipse.platform2_3.4.1.FSL_b02025-A22/   Bundle "org.eclipse.platform2" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform2_3.4.1.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.449
+!MESSAGE Could not install bundle plugins/org.eclipse.platform_3.3.101.FSL_b02025-A22/   Bundle "org.eclipse.platform" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform_3.3.101.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.450
+!MESSAGE Could not install bundle plugins/org.eclipse.rcp_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.rcp" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.rcp_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.450
+!MESSAGE Could not install bundle plugins/org.eclipse.sdk_3.4.1.FSL_b02025-A22/   Bundle "org.eclipse.sdk" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.sdk_3.4.1.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.451
+!MESSAGE Could not install bundle plugins/org.eclipse.search_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.search" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.search_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.457
+!MESSAGE Could not install bundle plugins/org.eclipse.swt.win32.win32.x86_3.6.0.FSL_b02025-A22.jar   Bundle "org.eclipse.swt.win32.win32.x86" version "3.6.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.swt.win32.win32.x86_3.6.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.458
+!MESSAGE Could not install bundle plugins/org.eclipse.swt_3.6.0.FSL_b02025-A22.jar   Bundle "org.eclipse.swt" version "3.6.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.swt_3.6.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.459
+!MESSAGE Could not install bundle plugins/org.eclipse.team.core_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.team.core" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.core_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.461
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.core_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.core" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.core_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.463
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ssh2_3.2.200.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ssh2" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ssh2_3.2.200.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.465
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ssh_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ssh" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ssh_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.466
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ui_3.3.100.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ui" version "3.3.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ui_3.3.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.467
+!MESSAGE Could not install bundle plugins/org.eclipse.team.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.team.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.468
+!MESSAGE Could not install bundle plugins/org.eclipse.text_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.text" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.text_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.469
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.browser_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.browser" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.browser_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.470
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.cheatsheets_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.cheatsheets" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.cheatsheets_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.472
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.console_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.console" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.console_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.474
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.editors_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.editors" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.editors_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.475
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.externaltools_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.externaltools" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.externaltools_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.476
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.forms_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.forms" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.forms_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.477
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide.application_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.ide.application" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.ide.application_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.480
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.ide" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.ide_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.482
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro.universal_3.2.200.FSL_b02025-A22/   Bundle "org.eclipse.ui.intro.universal" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.intro.universal_3.2.200.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.483
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.intro" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.intro_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.484
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator.resources_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.navigator.resources" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator.resources_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.485
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.navigator" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.487
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.net_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.net" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.net_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.489
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.presentations.r21_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.presentations.r21" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.presentations.r21_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.489
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views.properties.tabbed_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.views.properties.tabbed" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.views.properties.tabbed_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.490
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.views" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.views_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.491
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.win32_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.win32" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.win32_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.492
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.compatibility_3.2.0.FSL_b02025-A22/   Bundle "org.eclipse.ui.workbench.compatibility" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.compatibility_3.2.0.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.495
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.texteditor_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.workbench.texteditor" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.texteditor_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.496
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.workbench" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.497
+!MESSAGE Could not install bundle plugins/org.eclipse.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.498
+!MESSAGE Could not install bundle plugins/org.eclipse.update.configurator_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.update.configurator" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.configurator_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.501
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core.win32_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.core.win32" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.core.win32_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.502
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.update.core" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.core_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.503
+!MESSAGE Could not install bundle plugins/org.eclipse.update.scheduler_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.scheduler" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.scheduler_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.505
+!MESSAGE Could not install bundle plugins/org.eclipse.update.ui_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.ui" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.ui_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.509
+!MESSAGE Could not install bundle plugins/org.mortbay.jetty_5.1.14.v200806031611.jar   Bundle "org.mortbay.jetty" version "5.1.14.v200806031611" has already been installed from: reference:file:plugins/org.mortbay.jetty_5.1.14.v200806031611.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.512
+!MESSAGE Could not install bundle plugins/org.sat4j.core_2.1.0.v20090520.jar   Bundle "org.sat4j.core" version "2.1.0.v20090520" has already been installed from: reference:file:plugins/org.sat4j.core_2.1.0.v20090520.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:51:04.513
+!MESSAGE Could not install bundle plugins/org.sat4j.pb_2.1.0.v20090520.jar   Bundle "org.sat4j.pb" version "2.1.0.v20090520" has already been installed from: reference:file:plugins/org.sat4j.pb_2.1.0.v20090520.jar
+!SESSION 2012-10-30 02:54:01.444 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.264
+!MESSAGE Cannot backup current configuration
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.287
+!MESSAGE Could not rename configuration temp file
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.362
+!MESSAGE Could not install bundle plugins/com.ibm.icu_3.8.1.v20080530.jar   Bundle "com.ibm.icu" version "3.8.1.v20080530" has already been installed from: reference:file:plugins/com.ibm.icu_3.8.1.v20080530.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.365
+!MESSAGE Could not install bundle plugins/com.jcraft.jsch_0.1.37.v200803061811.jar   Bundle "com.jcraft.jsch" version "0.1.37.v200803061811" has already been installed from: reference:file:plugins/com.jcraft.jsch_0.1.37.v200803061811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.366
+!MESSAGE Could not install bundle plugins/javax.servlet.jsp_2.0.0.v200806031607.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200806031607" has already been installed from: reference:file:plugins/javax.servlet.jsp_2.0.0.v200806031607.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.369
+!MESSAGE Could not install bundle plugins/javax.servlet_2.4.0.v200806031604.jar   Bundle "javax.servlet" version "2.4.0.v200806031604" has already been installed from: reference:file:plugins/javax.servlet_2.4.0.v200806031604.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.370
+!MESSAGE Could not install bundle plugins/org.apache.ant_1.7.0.v200803061910/   Bundle "org.apache.ant" version "1.7.0.v200803061910" has already been installed from: reference:file:plugins/org.apache.ant_1.7.0.v200803061910
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.372
+!MESSAGE Could not install bundle plugins/org.apache.commons.el_1.0.0.v200806031608.jar   Bundle "org.apache.commons.el" version "1.0.0.v200806031608" has already been installed from: reference:file:plugins/org.apache.commons.el_1.0.0.v200806031608.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.373
+!MESSAGE Could not install bundle plugins/org.apache.commons.logging_1.0.4.v20080605-1930.jar   Bundle "org.apache.commons.logging" version "1.0.4.v20080605-1930" has already been installed from: reference:file:plugins/org.apache.commons.logging_1.0.4.v20080605-1930.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.376
+!MESSAGE Could not install bundle plugins/org.apache.jasper_5.5.17.v200806031609.jar   Bundle "org.apache.jasper" version "5.5.17.v200806031609" has already been installed from: reference:file:plugins/org.apache.jasper_5.5.17.v200806031609.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.377
+!MESSAGE Could not install bundle plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene.analysis" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.379
+!MESSAGE Could not install bundle plugins/org.apache.lucene_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.380
+!MESSAGE Could not install bundle plugins/org.eclipse.ant.core_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ant.core" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ant.core_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.395
+!MESSAGE Could not install bundle plugins/org.eclipse.compare_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.compare" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.compare_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.398
+!MESSAGE Could not install bundle plugins/org.eclipse.core.boot_3.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.boot" version "3.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.boot_3.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.399
+!MESSAGE Could not install bundle plugins/org.eclipse.core.commands_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.commands" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.commands_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.400
+!MESSAGE Could not install bundle plugins/org.eclipse.core.contenttype_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.contenttype" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.contenttype_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.401
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.beans_1.1.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.databinding.beans" version "1.1.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.beans_1.1.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.402
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding_1.1.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.databinding" version "1.1.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.databinding_1.1.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.404
+!MESSAGE Could not install bundle plugins/org.eclipse.core.expressions_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.expressions" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.expressions_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.405
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filebuffers_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filebuffers" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filebuffers_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.409
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filesystem.win32.x86" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.410
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem_1.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filesystem" version "1.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem_1.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.411
+!MESSAGE Could not install bundle plugins/org.eclipse.core.jobs_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.jobs" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.jobs_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.413
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net.win32.x86_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.net.win32.x86" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.net.win32.x86_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.414
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.net" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.net_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.415
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.compatibility_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources.compatibility" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources.compatibility_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.418
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.win32.x86_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources.win32.x86" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources.win32.x86_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.420
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.421
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.runtime.compatibility.auth" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.422
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.FSL_b02025-A22/   Bundle "org.eclipse.core.runtime.compatibility.registry" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.423
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.runtime.compatibility" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.426
+!MESSAGE Could not install bundle plugins/org.eclipse.core.variables_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.variables" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.variables_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.427
+!MESSAGE Could not install bundle plugins/org.eclipse.cvs_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.cvs" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.cvs_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.432
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.core_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.debug.core" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.debug.core_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.440
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.debug.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.debug.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.442
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.filetransfer_3.0.0.200910281307.jar   Bundle "org.eclipse.ecf.filetransfer" version "3.0.0.200910281307" has already been installed from: reference:file:plugins/org.eclipse.ecf.filetransfer_3.0.0.200910281307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.443
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.identity" version "2.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.445
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.provider.filetransfer.ssl" version "1.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.447
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.200910281307.jar   Bundle "org.eclipse.ecf.provider.filetransfer" version "3.0.1.200910281307" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.200910281307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.448
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.ssl" version "1.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.450
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf" version "2.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.452
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.app_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.app" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.app_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.455
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.common_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.common" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.common_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.456
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.event_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.event" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.event_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.459
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.frameworkadmin.equinox" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.460
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.frameworkadmin" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.461
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.jetty_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.jetty" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.jetty_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.464
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.registry_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.registry" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.registry_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.465
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.servlet_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.servlet" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.servlet_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.466
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.jsp.jasper.registry" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.467
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.jsp.jasper" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.468
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.101.FSL_b02025-A22/   Bundle "org.eclipse.equinox.launcher.win32.win32.x86" version "1.0.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.101.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.469
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher_1.0.101.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.launcher" version "1.0.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher_1.0.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.470
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.artifact.repository_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.artifact.repository" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.artifact.repository_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.472
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.console_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.console" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.console_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.473
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.core_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.core" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.core_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.477
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director.app_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.director.app" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director.app_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.478
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.directorywatcher_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.directorywatcher" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.directorywatcher_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.480
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.director" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.482
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.engine_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.engine" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.engine_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.485
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.exemplarysetup" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.486
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.extensionlocation_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.extensionlocation" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.extensionlocation_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.489
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.garbagecollector_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.garbagecollector" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.garbagecollector_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.490
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.jarprocessor_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.jarprocessor" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.jarprocessor_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.491
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.generator_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata.generator" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.generator_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.492
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.repository_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata.repository" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.repository_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.494
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.495
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.publisher_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.publisher" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.publisher_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.496
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.reconciler.dropins" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.499
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository.tools_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.repository.tools" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository.tools_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.501
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.repository" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.502
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.touchpoint.eclipse" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.504
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.touchpoint.natives" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.506
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui.sdk.scheduler" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.507
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui.sdk" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.509
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.510
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatechecker_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.updatechecker" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatechecker_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.511
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatesite_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.updatesite" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatesite_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.512
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.preferences_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.preferences" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.preferences_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.514
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.registry_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.registry" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.registry_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.515
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.ui_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security.ui" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.ui_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.516
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.win32.x86_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security.win32.x86" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.win32.x86_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.518
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.520
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.simpleconfigurator.manipulator_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.simpleconfigurator.manipulator" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.simpleconfigurator.manipulator_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.523
+!MESSAGE Could not install bundle plugins/org.eclipse.help.appserver_3.1.300.FSL_b02025-A22.jar   Bundle "org.eclipse.help.appserver" version "3.1.300.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.appserver_3.1.300.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.524
+!MESSAGE Could not install bundle plugins/org.eclipse.help.base_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.base" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.base_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.525
+!MESSAGE Could not install bundle plugins/org.eclipse.help.ui_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.ui" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.ui_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.526
+!MESSAGE Could not install bundle plugins/org.eclipse.help.webapp_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.webapp" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.webapp_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.528
+!MESSAGE Could not install bundle plugins/org.eclipse.help_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.529
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.databinding_1.2.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface.databinding" version "1.2.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface.databinding_1.2.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.531
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.text_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface.text" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface.text_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.532
+!MESSAGE Could not install bundle plugins/org.eclipse.jface_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.533
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.core_1.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.jsch.core" version "1.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jsch.core_1.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.535
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.ui_1.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.jsch.ui" version "1.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jsch.ui_1.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.537
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.core.refactoring_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ltk.core.refactoring" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ltk.core.refactoring_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.538
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.ui.refactoring_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ltk.ui.refactoring" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ltk.ui.refactoring_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.542
+!MESSAGE Could not install bundle plugins/org.eclipse.platform.doc.user_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.platform.doc.user" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform.doc.user_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.544
+!MESSAGE Could not install bundle plugins/org.eclipse.platform2_3.4.1.FSL_b02025-A22/   Bundle "org.eclipse.platform2" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform2_3.4.1.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.545
+!MESSAGE Could not install bundle plugins/org.eclipse.platform_3.3.101.FSL_b02025-A22/   Bundle "org.eclipse.platform" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform_3.3.101.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.546
+!MESSAGE Could not install bundle plugins/org.eclipse.rcp_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.rcp" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.rcp_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.547
+!MESSAGE Could not install bundle plugins/org.eclipse.sdk_3.4.1.FSL_b02025-A22/   Bundle "org.eclipse.sdk" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.sdk_3.4.1.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.549
+!MESSAGE Could not install bundle plugins/org.eclipse.search_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.search" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.search_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.551
+!MESSAGE Could not install bundle plugins/org.eclipse.swt.win32.win32.x86_3.6.0.FSL_b02025-A22.jar   Bundle "org.eclipse.swt.win32.win32.x86" version "3.6.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.swt.win32.win32.x86_3.6.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.553
+!MESSAGE Could not install bundle plugins/org.eclipse.swt_3.6.0.FSL_b02025-A22.jar   Bundle "org.eclipse.swt" version "3.6.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.swt_3.6.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.554
+!MESSAGE Could not install bundle plugins/org.eclipse.team.core_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.team.core" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.core_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.557
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.core_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.core" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.core_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.558
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ssh2_3.2.200.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ssh2" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ssh2_3.2.200.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.560
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ssh_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ssh" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ssh_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.561
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ui_3.3.100.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ui" version "3.3.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ui_3.3.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.563
+!MESSAGE Could not install bundle plugins/org.eclipse.team.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.team.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.564
+!MESSAGE Could not install bundle plugins/org.eclipse.text_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.text" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.text_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.566
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.browser_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.browser" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.browser_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.568
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.cheatsheets_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.cheatsheets" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.cheatsheets_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.569
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.console_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.console" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.console_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.570
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.editors_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.editors" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.editors_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.572
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.externaltools_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.externaltools" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.externaltools_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.574
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.forms_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.forms" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.forms_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.575
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide.application_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.ide.application" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.ide.application_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.577
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.ide" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.ide_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.579
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro.universal_3.2.200.FSL_b02025-A22/   Bundle "org.eclipse.ui.intro.universal" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.intro.universal_3.2.200.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.580
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.intro" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.intro_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.583
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator.resources_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.navigator.resources" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator.resources_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.584
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.navigator" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.586
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.net_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.net" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.net_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.588
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.presentations.r21_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.presentations.r21" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.presentations.r21_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.589
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views.properties.tabbed_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.views.properties.tabbed" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.views.properties.tabbed_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.590
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.views" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.views_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.591
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.win32_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.win32" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.win32_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.592
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.compatibility_3.2.0.FSL_b02025-A22/   Bundle "org.eclipse.ui.workbench.compatibility" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.compatibility_3.2.0.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.593
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.texteditor_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.workbench.texteditor" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.texteditor_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.595
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.workbench" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.597
+!MESSAGE Could not install bundle plugins/org.eclipse.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.599
+!MESSAGE Could not install bundle plugins/org.eclipse.update.configurator_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.update.configurator" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.configurator_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.601
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core.win32_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.core.win32" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.core.win32_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.602
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.update.core" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.core_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.603
+!MESSAGE Could not install bundle plugins/org.eclipse.update.scheduler_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.scheduler" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.scheduler_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.604
+!MESSAGE Could not install bundle plugins/org.eclipse.update.ui_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.ui" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.ui_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.607
+!MESSAGE Could not install bundle plugins/org.mortbay.jetty_5.1.14.v200806031611.jar   Bundle "org.mortbay.jetty" version "5.1.14.v200806031611" has already been installed from: reference:file:plugins/org.mortbay.jetty_5.1.14.v200806031611.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.612
+!MESSAGE Could not install bundle plugins/org.sat4j.core_2.1.0.v20090520.jar   Bundle "org.sat4j.core" version "2.1.0.v20090520" has already been installed from: reference:file:plugins/org.sat4j.core_2.1.0.v20090520.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-10-30 02:54:02.616
+!MESSAGE Could not install bundle plugins/org.sat4j.pb_2.1.0.v20090520.jar   Bundle "org.sat4j.pb" version "2.1.0.v20090520" has already been installed from: reference:file:plugins/org.sat4j.pb_2.1.0.v20090520.jar

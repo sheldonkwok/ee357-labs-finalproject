@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="com.freescale.coldfire.toolchain.configuration.2045735564">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.coldfire.toolchain.configuration.2045735564" moduleId="org.eclipse.cdt.core.settings" name="MCF52259_Console_Internal_RAM">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.freescale.starcore.cdt.errorParsers.SccErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.MwcfErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="elf" artifactName="52259_asm_template" buildProperties="" cleanCommand="rm -f" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;com.freescale.starcore.cdt.errorParsers.SccErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.MwcfErrorParser" id="com.freescale.coldfire.toolchain.configuration.2045735564" name="MCF52259_Console_Internal_RAM" parent="com.freescale.coldfire.toolchain.configuration">
+<folderInfo id="com.freescale.coldfire.toolchain.configuration.2045735564." name="/" resourcePath="">
+<toolChain id="com.freescale.coldfire.toolchain.toolchain.project.1805153660" name="ColdFire Toolchain Tools" superClass="com.freescale.coldfire.toolchain.toolchain.project">
+<option id="com.freescale.coldfire.toolchain.sharedoption.processor.2124839429" superClass="com.freescale.coldfire.toolchain.sharedoption.processor" value="com.freescale.coldfire.toolchain.sharedoption.processor.52259" valueType="enumerated"/>
+<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.freescale.coldfire.toolchain.platform.1926694038" name="ColdFire Target Platform" superClass="com.freescale.coldfire.toolchain.platform"/>
+<builder buildPath="${ProjDirPath}/MCF52259_Console_Internal_RAM" id="com.freescale.coldfire.toolchain.builder.1262943405" name="ColdFire Make Builder.MCF52259_Console_Internal_RAM" superClass="com.freescale.coldfire.toolchain.builder"/>
+<tool id="coldfire.toolchain.burner.1714557953" name="Burner" superClass="coldfire.toolchain.burner"/>
+<tool id="com.freescale.coldfire.toolchain.linker.debug.326885827" name="ColdFire Linker" superClass="com.freescale.coldfire.toolchain.linker.debug">
+<option id="com.freescale.coldfire.toolchain.linker.base.generateLinkMap.2086623175" superClass="com.freescale.coldfire.toolchain.linker.base.generateLinkMap" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.lpath.451134280" superClass="com.freescale.coldfire.toolchain.linker.base.input.lpath" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/lib&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.force.active.225622127" superClass="com.freescale.coldfire.toolchain.linker.base.input.force.active" valueType="stringList">
+<listOptionValue builtIn="false" value="__vect"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.lcf_file.1157176839" superClass="com.freescale.coldfire.toolchain.linker.base.input.lcf_file" value="${ProjDirPath}/Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf" valueType="string"/>
+<inputType id="com.freescale.coldfire.toolchain.linker.base.input.1004718205" name="Linker Input" superClass="com.freescale.coldfire.toolchain.linker.base.input">
+<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+</inputType>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1049373487" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug">
+<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.2026648796" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.system.203309822" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include.system" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include/sys&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_Runtime/Runtime_ColdFire/Source&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/(headers)/MCF52259&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.a6.1661762136" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.a6" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off.2089210062" superClass="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.compiler.base.general.otherflags.1819866874" superClass="com.freescale.coldfire.toolchain.compiler.base.general.otherflags" value="-define CONSOLE_IO_SUPPORT=1" valueType="string"/>
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.204216104" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.assembler.debug.1952131734" name="ColdFire Assembler" superClass="com.freescale.coldfire.toolchain.assembler.debug">
+<inputType id="com.freescale.coldfire.toolchain.assembler.base.input.172351064" name="ColdFire Assembler Input" superClass="com.freescale.coldfire.toolchain.assembler.base.input"/>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.preprocessor.debug.854456233" name="ColdFire Preprocessor" superClass="com.freescale.coldfire.toolchain.preprocessor.debug"/>
+<tool id="com.freescale.coldfire.toolchain.disassembler.debug.1353083922" name="ColdFire Disassembler" superClass="com.freescale.coldfire.toolchain.disassembler.debug"/>
+</toolChain>
+</folderInfo>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.2045735564.Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf" name="MCF52259_Internal_Flash.lcf" rcbsApplicability="disable" resourcePath="Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.2045735564.Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf" name="MCF52259_Internal_RAM.lcf" rcbsApplicability="disable" resourcePath="Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.2045735564.Project_Settings/Debugger/MCF52259.mem" name="MCF52259.mem" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/MCF52259.mem" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.2045735564.Project_Settings/Debugger/MCF52259.cfg" name="MCF52259.cfg" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/MCF52259.cfg" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.2045735564.Sources/cfm.c" name="cfm.c" rcbsApplicability="disable" resourcePath="Sources/cfm.c" toolsToInvoke="com.freescale.coldfire.toolchain.compiler.debug.1049373487.482583245">
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1049373487.482583245" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug.1049373487">
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.527850794" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+</fileInfo>
+<sourceEntries>
+<entry excluding="Project_Settings/Debugger/MCF52259.cfg|Project_Settings/Debugger/MCF52259.mem|Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf|Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf|Sources/cfm.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+</sourceEntries>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.freescale.coldfire.cdt.toolchain.linux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCInstallDir}/m68k-linux-gnu-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.cpp.toolchain.linux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCInstallDir}/m68k-linux-gnu-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.toolchain.uclinux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCUCInstallDir}/m68k-uclinux-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.cpp.toolchain.uclinux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCUCInstallDir}/m68k-uclinux-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+<cconfiguration id="com.freescale.coldfire.toolchain.configuration.719410814">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.coldfire.toolchain.configuration.719410814" moduleId="org.eclipse.cdt.core.settings" name="MCF52259_Internal_RAM">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.freescale.starcore.cdt.errorParsers.SccErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.MwcfErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="elf" artifactName="52259_asm_template" buildProperties="" cleanCommand="rm -f" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;com.freescale.starcore.cdt.errorParsers.SccErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.MwcfErrorParser" id="com.freescale.coldfire.toolchain.configuration.719410814" name="MCF52259_Internal_RAM" parent="com.freescale.coldfire.toolchain.configuration">
+<folderInfo id="com.freescale.coldfire.toolchain.configuration.719410814." name="/" resourcePath="">
+<toolChain id="com.freescale.coldfire.toolchain.toolchain.project.1620977065" name="ColdFire Toolchain Tools" superClass="com.freescale.coldfire.toolchain.toolchain.project">
+<option id="com.freescale.coldfire.toolchain.sharedoption.processor.1334391336" superClass="com.freescale.coldfire.toolchain.sharedoption.processor" value="com.freescale.coldfire.toolchain.sharedoption.processor.52259" valueType="enumerated"/>
+<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.freescale.coldfire.toolchain.platform.1181272806" name="ColdFire Target Platform" superClass="com.freescale.coldfire.toolchain.platform"/>
+<builder buildPath="${ProjDirPath}/MCF52259_Internal_RAM" id="com.freescale.coldfire.toolchain.builder.950559047" name="ColdFire Make Builder.MCF52259_Internal_RAM" superClass="com.freescale.coldfire.toolchain.builder"/>
+<tool id="coldfire.toolchain.burner.240579891" name="Burner" superClass="coldfire.toolchain.burner"/>
+<tool id="com.freescale.coldfire.toolchain.linker.debug.1138069126" name="ColdFire Linker" superClass="com.freescale.coldfire.toolchain.linker.debug">
+<option id="com.freescale.coldfire.toolchain.linker.base.generateLinkMap.888735119" superClass="com.freescale.coldfire.toolchain.linker.base.generateLinkMap" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.lpath.1151864249" superClass="com.freescale.coldfire.toolchain.linker.base.input.lpath" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/lib&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.force.active.2086903920" superClass="com.freescale.coldfire.toolchain.linker.base.input.force.active" valueType="stringList">
+<listOptionValue builtIn="false" value="__vect"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.lcf_file.2117702363" superClass="com.freescale.coldfire.toolchain.linker.base.input.lcf_file" value="${ProjDirPath}/Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf" valueType="string"/>
+<inputType id="com.freescale.coldfire.toolchain.linker.base.input.1607631902" name="Linker Input" superClass="com.freescale.coldfire.toolchain.linker.base.input">
+<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+</inputType>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1875283308" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug">
+<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.385932105" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.system.1141220290" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include.system" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include/sys&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_Runtime/Runtime_ColdFire/Source&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/(headers)/MCF52259&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.a6.2067619814" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.a6" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off.1024844705" superClass="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off" value="true" valueType="boolean"/>
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.1649388190" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.assembler.debug.970119734" name="ColdFire Assembler" superClass="com.freescale.coldfire.toolchain.assembler.debug">
+<inputType id="com.freescale.coldfire.toolchain.assembler.base.input.1656065932" name="ColdFire Assembler Input" superClass="com.freescale.coldfire.toolchain.assembler.base.input"/>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.preprocessor.debug.1446709212" name="ColdFire Preprocessor" superClass="com.freescale.coldfire.toolchain.preprocessor.debug"/>
+<tool id="com.freescale.coldfire.toolchain.disassembler.debug.434620584" name="ColdFire Disassembler" superClass="com.freescale.coldfire.toolchain.disassembler.debug"/>
+</toolChain>
+</folderInfo>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.719410814.Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf" name="MCF52259_Internal_Flash.lcf" rcbsApplicability="disable" resourcePath="Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.719410814.Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf" name="MCF52259_Console_Internal_RAM.lcf" rcbsApplicability="disable" resourcePath="Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.719410814.Project_Settings/Debugger/MCF52259.mem" name="MCF52259.mem" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/MCF52259.mem" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.719410814.Project_Settings/Debugger/MCF52259.cfg" name="MCF52259.cfg" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/MCF52259.cfg" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.719410814.Sources/console_io_cf.c" name="console_io_cf.c" rcbsApplicability="disable" resourcePath="Sources/console_io_cf.c" toolsToInvoke="com.freescale.coldfire.toolchain.compiler.debug.1875283308.368870368">
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1875283308.368870368" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug.1875283308">
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.1802113415" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+</fileInfo>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.719410814.Sources/cfm.c" name="cfm.c" rcbsApplicability="disable" resourcePath="Sources/cfm.c" toolsToInvoke="com.freescale.coldfire.toolchain.compiler.debug.1875283308.813889724">
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1875283308.813889724" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug.1875283308">
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.1451230350" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+</fileInfo>
+<sourceEntries>
+<entry excluding="Sources/console_io_cf.c|Project_Settings/Debugger/MCF52259.cfg|Project_Settings/Debugger/MCF52259.mem|Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf|Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf|Sources/cfm.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+</sourceEntries>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.freescale.coldfire.cdt.toolchain.linux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCInstallDir}/m68k-linux-gnu-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.cpp.toolchain.linux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCInstallDir}/m68k-linux-gnu-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.toolchain.uclinux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCUCInstallDir}/m68k-uclinux-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.cpp.toolchain.uclinux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCUCInstallDir}/m68k-uclinux-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+<cconfiguration id="com.freescale.coldfire.toolchain.configuration.600326325">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.coldfire.toolchain.configuration.600326325" moduleId="org.eclipse.cdt.core.settings" name="MCF52259_Internal_Flash">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.freescale.starcore.cdt.errorParsers.SccErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.MwcfErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="elf" artifactName="52259_asm_template" buildProperties="" cleanCommand="rm -f" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;com.freescale.starcore.cdt.errorParsers.SccErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.MwcfErrorParser" id="com.freescale.coldfire.toolchain.configuration.600326325" name="MCF52259_Internal_Flash" parent="com.freescale.coldfire.toolchain.configuration">
+<folderInfo id="com.freescale.coldfire.toolchain.configuration.600326325." name="/" resourcePath="">
+<toolChain id="com.freescale.coldfire.toolchain.toolchain.project.1700654903" name="ColdFire Toolchain Tools" superClass="com.freescale.coldfire.toolchain.toolchain.project">
+<option id="com.freescale.coldfire.toolchain.sharedoption.processor.350756535" superClass="com.freescale.coldfire.toolchain.sharedoption.processor" value="com.freescale.coldfire.toolchain.sharedoption.processor.52259" valueType="enumerated"/>
+<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.freescale.coldfire.toolchain.platform.1408938286" name="ColdFire Target Platform" superClass="com.freescale.coldfire.toolchain.platform"/>
+<builder buildPath="${ProjDirPath}/MCF52259_Internal_Flash" id="com.freescale.coldfire.toolchain.builder.231985734" name="ColdFire Make Builder.MCF52259_Internal_Flash" superClass="com.freescale.coldfire.toolchain.builder"/>
+<tool id="coldfire.toolchain.burner.1782861826" name="Burner" superClass="coldfire.toolchain.burner"/>
+<tool id="com.freescale.coldfire.toolchain.linker.debug.815543073" name="ColdFire Linker" superClass="com.freescale.coldfire.toolchain.linker.debug">
+<option id="com.freescale.coldfire.toolchain.linker.base.generateLinkMap.858901739" superClass="com.freescale.coldfire.toolchain.linker.base.generateLinkMap" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.lpath.1857907667" superClass="com.freescale.coldfire.toolchain.linker.base.input.lpath" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/lib&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.force.active.559028177" superClass="com.freescale.coldfire.toolchain.linker.base.input.force.active" valueType="stringList">
+<listOptionValue builtIn="false" value="__vect"/>
+<listOptionValue builtIn="false" value="__cfm"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.linker.base.input.lcf_file.1952366654" superClass="com.freescale.coldfire.toolchain.linker.base.input.lcf_file" value="${ProjDirPath}/Project_Settings/Linker_Files/MCF52259_Internal_Flash.lcf" valueType="string"/>
+<inputType id="com.freescale.coldfire.toolchain.linker.base.input.209403844" name="Linker Input" superClass="com.freescale.coldfire.toolchain.linker.base.input">
+<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+</inputType>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1242292644" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug">
+<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.374309787" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.system.1607032215" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include.system" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include/sys&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_Runtime/Runtime_ColdFire/Source&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/(headers)/MCF52259&quot;"/>
+</option>
+<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.a6.963612483" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.a6" value="true" valueType="boolean"/>
+<option id="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off.354967912" superClass="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off" value="true" valueType="boolean"/>
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.724631287" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.assembler.debug.699878331" name="ColdFire Assembler" superClass="com.freescale.coldfire.toolchain.assembler.debug">
+<inputType id="com.freescale.coldfire.toolchain.assembler.base.input.1294584525" name="ColdFire Assembler Input" superClass="com.freescale.coldfire.toolchain.assembler.base.input"/>
+</tool>
+<tool id="com.freescale.coldfire.toolchain.preprocessor.debug.606897302" name="ColdFire Preprocessor" superClass="com.freescale.coldfire.toolchain.preprocessor.debug"/>
+<tool id="com.freescale.coldfire.toolchain.disassembler.debug.845143023" name="ColdFire Disassembler" superClass="com.freescale.coldfire.toolchain.disassembler.debug"/>
+</toolChain>
+</folderInfo>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.600326325.Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf" name="MCF52259_Console_Internal_RAM.lcf" rcbsApplicability="disable" resourcePath="Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.600326325.Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf" name="MCF52259_Internal_RAM.lcf" rcbsApplicability="disable" resourcePath="Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.600326325.Project_Settings/Debugger/MCF52259.mem" name="MCF52259.mem" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/MCF52259.mem" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.600326325.Project_Settings/Debugger/MCF52259.cfg" name="MCF52259.cfg" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/MCF52259.cfg" toolsToInvoke=""/>
+<fileInfo id="com.freescale.coldfire.toolchain.configuration.600326325.Sources/console_io_cf.c" name="console_io_cf.c" rcbsApplicability="disable" resourcePath="Sources/console_io_cf.c" toolsToInvoke="com.freescale.coldfire.toolchain.compiler.debug.1242292644.1378008426">
+<tool id="com.freescale.coldfire.toolchain.compiler.debug.1242292644.1378008426" name="ColdFire Compiler" superClass="com.freescale.coldfire.toolchain.compiler.debug.1242292644">
+<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.443448291" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
+</tool>
+</fileInfo>
+<sourceEntries>
+<entry excluding="Sources/console_io_cf.c|Project_Settings/Debugger/MCF52259.cfg|Project_Settings/Debugger/MCF52259.mem|Project_Settings/Linker_Files/MCF52259_Internal_RAM.lcf|Project_Settings/Linker_Files/MCF52259_Console_Internal_RAM.lcf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+</sourceEntries>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.freescale.coldfire.cdt.toolchain.linux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCInstallDir}/m68k-linux-gnu-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.cpp.toolchain.linux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCInstallDir}/m68k-linux-gnu-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.toolchain.uclinux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCUCInstallDir}/m68k-uclinux-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.freescale.coldfire.cdt.cpp.toolchain.uclinux.discoveryProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="${CFGCCUCInstallDir}/m68k-uclinux-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="52259_asm_template.com.freescale.coldfire.toolchain.projecttype.567934632" name="Freescale Coldfire" projectType="com.freescale.coldfire.toolchain.projecttype"/>
+</storageModule>
+</cproject>
