@@ -20,6 +20,7 @@ agtb:	.space 1
 output:	.space 4
 blink:	.space 4
 flag:	.space 1
+subbing: .space 1
 
 		.text 
 		.global _main
@@ -27,12 +28,17 @@ flag:	.space 1
 		.include "../Project_Headers/ee357_asm_lib_hdr.s"
 _main:
 main:	// don't change except for below values
+		MOVE.L 	#0,D0
+		MOVE.L 	D0,subbing
+
 		CLR.L D0
 		CLR.L D1
 		CLR.L D3
+
 		
 		MOVE.L #%010000100110, D0 // change these to test
 		MOVE.L #%001101011110, D1 // change these to test
+
 		BSR LED_initialization
 		BSR FP_addition
 		BSR FP_subtraction
@@ -252,6 +258,13 @@ Do_normal: // Do the (re)normalization if necessary
 		RTS
 
 HNDLCARRY:		
+		MOVE.L 	#1,D5
+		AND.L   subbing,D5		// check if subtraction
+		TST.L 	D5				// compare
+		BEQ		SUBTRACTION
+		BNE		ADDITION
+
+ADDITION:
 		MOVE.L 	fracnew,D3
 		LSR.L	#1,D3			// shift frac 1 right
 		MOVE.L	D3,fracnew
@@ -259,10 +272,20 @@ HNDLCARRY:
 		MOVE.L	expnew,D4
 		ADD.L	#1,D4			// add 1 to exp
 		MOVE.L	D4,expnew
-		
-		// need to implement subtraction handle
+
 		RTS
-		
+
+SUBTRACTION:
+		MOVE.L 	fracnew,D3
+		LSL.L 	#8,D3  			// drop the carry		
+		LSL.L 	#8,D3
+		LSL.L 	#5,D3
+		LSR.L 	#8,D3  			// shift back		
+		LSR.L 	#8,D3
+		LSR.L 	#5,D3
+
+		RTS
+
 		
 Do_round: // Do the round to the nearest
 		MOVE.L	fracnew,D3
@@ -353,14 +376,20 @@ FP_subtraction: // don't change this!
 		RTS
 		
 Conv_sub:
-
-		// flip the sign bit for the 2nd one
-		// then do FP_addition
+		MOVE.L 	signb,D4
+		ADDI.L 	#1,D4			// flip sign by adding
+		LSL.L  	#8,D4			// pop off excess by shifting
+		LSL.L  	#8,D4
+		LSL.L  	#8,D4
+		LSL.L  	#7,D4
+		LSR.L  	#8,D4
+		LSR.L  	#8,D4
+		LSR.L  	#8,D4
+		LSR.L  	#7,D4
+		MOVE.L 	D4,signb		// move new sign to signb
 		
-		// have a register to show that it's subtraction
-		// make sure to drop the carry
-		// store it into the right register
-
+		MOVE.L 	#1,D4
+		MOVE.L  D4,subbing
 		RTS
 		
 Display_result:
