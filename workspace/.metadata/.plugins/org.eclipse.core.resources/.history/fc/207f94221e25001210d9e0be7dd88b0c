@@ -40,13 +40,13 @@ main:	// don't change except for below values
 
 LED_initialization:
 
-		move.l #0x0f,d7
-		move.b d7,0x40100074	// 00001111 into PDDPAR (Switch)
-		move.b d7,0x4010002C 	// 00001111 into DDRDD (Switch)
-		move.b d7,0x40100027	// 00001111 into DDRTC (LED)
-		move.l #0,d7
-		move.b d7,0x4010000F	// 00000000 into PORTTC (LED)
-		move.b d7,0x4010006F	// 00000000 into PTCPAR (LED)
+		move.l #0x0f,d6
+		move.b d0,0x40100074	// 00001111 into PDDPAR (Switch)
+		move.b d0,0x4010002C 	// 00001111 into DDRDD (Switch)
+		move.b d0,0x40100027	// 00001111 into DDRTC (LED)
+		move.l #0,d6
+		move.b d1,0x4010000F	// 00000000 into PORTTC (LED)
+		move.b d0,0x4010006F	// 00000000 into PTCPAR (LED)
 		
 		RTS
 		
@@ -365,94 +365,53 @@ Conv_sub:
 		
 Display_result:
 
-BLINK: 	move.l d2,d8
-		lsr.l #8,d8
-		andi.l #0x0f,d8		// Clear 1st # except for 4 LSB
-		move.b d8,0x4010000F; // move first 4 bits into LED
-				
-		move.l #6666666,d7 // Loop To Wait (Show Add 4MSB) 2 Seconds
+BLINK: 	move.l d2,blink;
+		move.b blink,0x4010000F; // move first 4 bits into LED
+
+		// Loop To Wait (Show Add 4MSB) 2 Seconds
+		move.l #6666666,d7
 LOOP1: 	SUBI.l #1,d7
 		BNE LOOP1
-	
-		move.b #0,0x4010000F; // move first 4 bits into LED	
 		
-		move.l #6666666,d7 // Loop To Wait (Show Nothing) 2 Seconds
-LOOP2: 	SUBI.l #1,d7
-		BNE LOOP2
-		
-		move.l d2,d8
-		lsr.l #4,d8
-		andi.l #0x0f,d8		// Clear 1st # except for 4 LSB
-		move.b d8,0x4010000F; // move first 4 bits into LED	
-		
-		move.l #6666666,d7 // Loop To Wait (Show Next 4MSB) 2 Seconds
-LOOP3: 	SUBI.l #1,d7
-		BNE LOOP3
-	
-		move.b #0,0x4010000F; // move first 4 bits into LED	
-				
-		move.l #6666666,d7 // Loop To Wait (Show Nothing) 2 Seconds
-LOOP4: 	SUBI.l #1,d7
-		BNE LOOP4
-	
-		move.l d2,d8
-		andi.l #0x0f,d8		// Clear 1st # except for 4 LSB
-		move.b d8,0x4010000F; // move first 4 bits into LED			
-		
-		move.l #6666666,d7 // Loop To Wait (Show Next 4MSB) 2 Seconds
-LOOP5: 	SUBI.l #1,d7
-		BNE LOOP5
-		
-		move.b #0,0x4010000F; // move first 4 bits into LED	
-		
-		move.l #6666666,d7 // Loop To Wait (Show Nothing) 2 Seconds
-LOOP6: 	SUBI.l #1,d7
-		BNE LOOP6
+		move.l #0,d0			// Initialize d0 for displaying nothing
 
-	// showing 2nd number now
+LOOP2: 	
 		
-		move.l d3,d8
-		lsr.l #8,d8
-		andi.l #0x0f,d8		// Clear 1st # except for 4 LSB
-		move.b d8,0x4010000F; // move first 4 bits into LED
-				
-		move.l #6666666,d7 // Loop To Wait (Show Add 4MSB) 2 Seconds
-LOOP7: 	SUBI.l #1,d7
-		BNE LOOP1
-	
-		move.b #0,0x4010000F; // move first 4 bits into LED	
 		
-		move.l #6666666,d7 // Loop To Wait (Show Nothing) 2 Seconds
-LOOP8: 	SUBI.l #1,d7
-		BNE LOOP2
+		/* Blinking Average Loop */ 
+		// Displaying Average #
+AGAIN:	move.b 0(a1,d4*1),d1
+		move.b d1,0x4010000F 	// Display Average # - arr[2] into PORTTC (LED)
 		
-		move.l d3,d8
-		lsr.l #4,d8
-		andi.l #0x0f,d8		// Clear 1st # except for 4 LSB
-		move.b d8,0x4010000F; // move first 4 bits into LED	
+		// Loop to Wait 1 Second (on)
+		move.l #3333333,d3
+ON:  	SUBI.l #1,d3
+		BNE ON
 		
-		move.l #6666666,d7 // Loop To Wait (Show Next 4MSB) 2 Seconds
-LOOP9: 	SUBI.l #1,d7
-		BNE LOOP3
-	
-		move.b #0,0x4010000F; // move first 4 bits into LED	
-				
-		move.l #6666666,d7 // Loop To Wait (Show Nothing) 2 Seconds
-LOOP10: 	SUBI.l #1,d7
-		BNE LOOP4
-	
-		move.l d3,d8
-		andi.l #0x0f,d8		// Clear 1st # except for 4 LSB
-		move.b d8,0x4010000F; // move first 4 bits into LED			
+		// Displaying Nothing
+		move.b d0,0x4010000F 	// Displaying Nothing - #0 into PORTTC (LED)
 		
-		move.l #6666666,d7 // Loop To Wait (Show Next 4MSB) 2 Seconds
-LOOP11: 	SUBI.l #1,d7
-		BNE LOOP5
+		// Loop to Wait 1 Second (off)
+		move.l #3333333,d3
+OFF: 	SUBI.l #1,d3
+		BNE OFF
 		
-		move.b #0,0x4010000F; // move first 4 bits into LED	
+		BRA AGAIN 				// LOOP FOREVER - Keeps Blinking
 		
-		move.l #6666666,d7 // Loop To Wait (Show Nothing) 2 Seconds
-LOOP12: 	SUBI.l #1,d7
-		BNE LOOP6
+		
+		
+		
+		
+		
+		
 
-		BRA BLINK
+
+
+
+
+
+
+		// code here
+		// final result must be stored in last (LSB) 12 results of D2 and D3 respectively.
+		// blinking code in lab 2
+		RTS
