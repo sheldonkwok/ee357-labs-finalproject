@@ -26,8 +26,8 @@ OBJS_OS_FORMAT += \
 Project_Settings/Startup_Code/startcf.obj: ../Project_Settings/Startup_Code/startcf.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ColdFire Compiler'
-	"E:\Program Files\CW MCU v10.0\eclipse\../MCU/ColdFire_Tools/Command_Line_Tools/mwccmcf" @"Project_Settings/Startup_Code/startcf.args" -o "Project_Settings/Startup_Code/startcf.obj" "$<"
-	"E:\Program Files\CW MCU v10.0\eclipse\../MCU/ColdFire_Tools/Command_Line_Tools/mwccmcf" @"Project_Settings/Startup_Code/startcf.args" -o "Project_Settings/Startup_Code/startcf.obj" "$<" -MD -gccdep
+	"C:\Program Files\Freescale\CW MCU v10.0\eclipse\../MCU/ColdFire_Tools/Command_Line_Tools/mwccmcf" @"Project_Settings/Startup_Code/startcf.args" -o "Project_Settings/Startup_Code/startcf.obj" "$<"
+	"C:\Program Files\Freescale\CW MCU v10.0\eclipse\../MCU/ColdFire_Tools/Command_Line_Tools/mwccmcf" @"Project_Settings/Startup_Code/startcf.args" -o "Project_Settings/Startup_Code/startcf.obj" "$<" -MD -gccdep
 	@echo 'Finished building: $<'
 	@echo ' '
 

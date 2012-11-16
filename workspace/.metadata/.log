@@ -2285,3 +2285,889 @@ java.lang.AssertionError: Assertion failed: Getting register location string fro
 
 !ENTRY com.freescale.core.debugger.cdt 4 0 2012-11-02 14:31:12.714
 !MESSAGE A debug session is already in progress.
+!SESSION 2012-11-16 13:22:07.901 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.666
+!MESSAGE Cannot backup current configuration
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.698
+!MESSAGE Could not rename configuration temp file
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/com.ibm.icu_3.8.1.v20080530.jar   Bundle "com.ibm.icu" version "3.8.1.v20080530" has already been installed from: reference:file:plugins/com.ibm.icu_3.8.1.v20080530.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/com.jcraft.jsch_0.1.37.v200803061811.jar   Bundle "com.jcraft.jsch" version "0.1.37.v200803061811" has already been installed from: reference:file:plugins/com.jcraft.jsch_0.1.37.v200803061811.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/javax.servlet.jsp_2.0.0.v200806031607.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200806031607" has already been installed from: reference:file:plugins/javax.servlet.jsp_2.0.0.v200806031607.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/javax.servlet_2.4.0.v200806031604.jar   Bundle "javax.servlet" version "2.4.0.v200806031604" has already been installed from: reference:file:plugins/javax.servlet_2.4.0.v200806031604.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/org.apache.ant_1.7.0.v200803061910/   Bundle "org.apache.ant" version "1.7.0.v200803061910" has already been installed from: reference:file:plugins/org.apache.ant_1.7.0.v200803061910
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/org.apache.commons.el_1.0.0.v200806031608.jar   Bundle "org.apache.commons.el" version "1.0.0.v200806031608" has already been installed from: reference:file:plugins/org.apache.commons.el_1.0.0.v200806031608.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.776
+!MESSAGE Could not install bundle plugins/org.apache.commons.logging_1.0.4.v20080605-1930.jar   Bundle "org.apache.commons.logging" version "1.0.4.v20080605-1930" has already been installed from: reference:file:plugins/org.apache.commons.logging_1.0.4.v20080605-1930.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.791
+!MESSAGE Could not install bundle plugins/org.apache.jasper_5.5.17.v200806031609.jar   Bundle "org.apache.jasper" version "5.5.17.v200806031609" has already been installed from: reference:file:plugins/org.apache.jasper_5.5.17.v200806031609.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.791
+!MESSAGE Could not install bundle plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene.analysis" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.791
+!MESSAGE Could not install bundle plugins/org.apache.lucene_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.791
+!MESSAGE Could not install bundle plugins/org.eclipse.ant.core_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ant.core" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ant.core_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.807
+!MESSAGE Could not install bundle plugins/org.eclipse.compare_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.compare" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.compare_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.807
+!MESSAGE Could not install bundle plugins/org.eclipse.core.boot_3.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.boot" version "3.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.boot_3.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.807
+!MESSAGE Could not install bundle plugins/org.eclipse.core.commands_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.commands" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.commands_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.807
+!MESSAGE Could not install bundle plugins/org.eclipse.core.contenttype_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.contenttype" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.contenttype_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.807
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.beans_1.1.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.databinding.beans" version "1.1.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.beans_1.1.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.807
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding_1.1.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.databinding" version "1.1.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.databinding_1.1.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.expressions_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.expressions" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.expressions_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filebuffers_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filebuffers" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filebuffers_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filesystem.win32.x86" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem_1.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.filesystem" version "1.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem_1.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.jobs_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.jobs" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.jobs_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net.win32.x86_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.net.win32.x86" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.net.win32.x86_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.net" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.net_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.compatibility_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources.compatibility" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources.compatibility_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.win32.x86_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources.win32.x86" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources.win32.x86_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.core.resources" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.resources_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.runtime.compatibility.auth" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.FSL_b02025-A22/   Bundle "org.eclipse.core.runtime.compatibility.registry" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.core.runtime.compatibility" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.823
+!MESSAGE Could not install bundle plugins/org.eclipse.core.variables_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.core.variables" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.core.variables_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.838
+!MESSAGE Could not install bundle plugins/org.eclipse.cvs_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.cvs" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.cvs_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.838
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.core_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.debug.core" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.debug.core_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.838
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.debug.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.debug.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.838
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.filetransfer_3.0.0.200910281307.jar   Bundle "org.eclipse.ecf.filetransfer" version "3.0.0.200910281307" has already been installed from: reference:file:plugins/org.eclipse.ecf.filetransfer_3.0.0.200910281307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.identity" version "2.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.provider.filetransfer.ssl" version "1.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.200910281307.jar   Bundle "org.eclipse.ecf.provider.filetransfer" version "3.0.1.200910281307" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.200910281307.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf.ssl" version "1.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar   Bundle "org.eclipse.ecf" version "2.0.0.v20080611-1715" has already been installed from: reference:file:plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.app_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.app" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.app_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.common_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.common" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.common_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.event_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.event" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.event_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.frameworkadmin.equinox" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.frameworkadmin" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.854
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.jetty_1.1.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.jetty" version "1.1.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.jetty_1.1.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.registry_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.registry" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.registry_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.servlet_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.http.servlet" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.servlet_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.jsp.jasper.registry" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper_1.0.100.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.jsp.jasper" version "1.0.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper_1.0.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.101.FSL_b02025-A22/   Bundle "org.eclipse.equinox.launcher.win32.win32.x86" version "1.0.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.101.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher_1.0.101.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.launcher" version "1.0.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher_1.0.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.artifact.repository_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.artifact.repository" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.artifact.repository_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.console_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.console" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.console_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.885
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.core_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.core" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.core_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.885
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director.app_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.director.app" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director.app_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.885
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.directorywatcher_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.directorywatcher" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.directorywatcher_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.885
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.director" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.885
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.engine_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.engine" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.engine_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.885
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.exemplarysetup" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.extensionlocation_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.extensionlocation" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.extensionlocation_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.garbagecollector_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.garbagecollector" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.garbagecollector_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.jarprocessor_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.jarprocessor" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.jarprocessor_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.generator_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata.generator" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.generator_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.repository_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata.repository" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.repository_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.metadata" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.publisher_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.publisher" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.publisher_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.reconciler.dropins" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository.tools_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.repository.tools" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository.tools_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.repository" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.touchpoint.eclipse" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.touchpoint.natives" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui.sdk.scheduler" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui.sdk" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.ui" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatechecker_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.updatechecker" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatechecker_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.901
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatesite_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.p2.updatesite" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatesite_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.916
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.preferences_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.preferences" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.preferences_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.916
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.registry_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.registry" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.registry_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.916
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.ui_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security.ui" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.ui_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.916
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.win32.x86_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security.win32.x86" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.win32.x86_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.916
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security_1.0.1.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.security" version "1.0.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.security_1.0.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.916
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.simpleconfigurator.manipulator_1.0.2.FSL_b02025-A22.jar   Bundle "org.eclipse.equinox.simpleconfigurator.manipulator" version "1.0.2.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.equinox.simpleconfigurator.manipulator_1.0.2.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.help.appserver_3.1.300.FSL_b02025-A22.jar   Bundle "org.eclipse.help.appserver" version "3.1.300.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.appserver_3.1.300.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.help.base_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.base" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.base_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.help.ui_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.ui" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.ui_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.help.webapp_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help.webapp" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help.webapp_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.help_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.help" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.help_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.databinding_1.2.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface.databinding" version "1.2.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface.databinding_1.2.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.text_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface.text" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface.text_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.jface_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.jface" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jface_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.core_1.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.jsch.core" version "1.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jsch.core_1.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.ui_1.1.100.FSL_b02025-A22.jar   Bundle "org.eclipse.jsch.ui" version "1.1.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.jsch.ui_1.1.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.core.refactoring_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ltk.core.refactoring" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ltk.core.refactoring_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.ui.refactoring_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ltk.ui.refactoring" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ltk.ui.refactoring_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.platform.doc.user_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.platform.doc.user" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform.doc.user_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.932
+!MESSAGE Could not install bundle plugins/org.eclipse.platform2_3.4.1.FSL_b02025-A22/   Bundle "org.eclipse.platform2" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform2_3.4.1.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.platform_3.3.101.FSL_b02025-A22/   Bundle "org.eclipse.platform" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.platform_3.3.101.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.rcp_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.rcp" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.rcp_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.sdk_3.4.1.FSL_b02025-A22/   Bundle "org.eclipse.sdk" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.sdk_3.4.1.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.search_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.search" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.search_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.swt.win32.win32.x86_3.6.0.FSL_b02025-A22.jar   Bundle "org.eclipse.swt.win32.win32.x86" version "3.6.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.swt.win32.win32.x86_3.6.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.swt_3.6.0.FSL_b02025-A22.jar   Bundle "org.eclipse.swt" version "3.6.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.swt_3.6.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.team.core_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.team.core" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.core_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.core_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.core" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.core_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ssh2_3.2.200.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ssh2" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ssh2_3.2.200.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ssh_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ssh" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ssh_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.team.cvs.ui_3.3.100.FSL_b02025-A22.jar   Bundle "org.eclipse.team.cvs.ui" version "3.3.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.cvs.ui_3.3.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.team.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.team.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.team.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.text_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.text" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.text_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.browser_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.browser" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.browser_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.948
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.cheatsheets_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.cheatsheets" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.cheatsheets_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.console_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.console" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.console_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.editors_3.4.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.editors" version "3.4.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.editors_3.4.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.externaltools_3.2.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.externaltools" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.externaltools_3.2.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.forms_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.forms" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.forms_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide.application_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.ide.application" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.ide.application_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.ide" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.ide_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.963
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro.universal_3.2.200.FSL_b02025-A22/   Bundle "org.eclipse.ui.intro.universal" version "3.2.200.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.intro.universal_3.2.200.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.intro" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.intro_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator.resources_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.navigator.resources" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator.resources_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator_3.3.101.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.navigator" version "3.3.101.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator_3.3.101.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.net_1.0.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.net" version "1.0.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.net_1.0.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.presentations.r21_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.presentations.r21" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.presentations.r21_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views.properties.tabbed_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.views.properties.tabbed" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.views.properties.tabbed_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views_3.3.0.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.views" version "3.3.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.views_3.3.0.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.win32_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.win32" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.win32_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.compatibility_3.2.0.FSL_b02025-A22/   Bundle "org.eclipse.ui.workbench.compatibility" version "3.2.0.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.compatibility_3.2.0.FSL_b02025-A22
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.texteditor_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.workbench.texteditor" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.texteditor_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui.workbench" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.ui_3.4.1.FSL_b02025-A22.jar   Bundle "org.eclipse.ui" version "3.4.1.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.ui_3.4.1.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.update.configurator_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.update.configurator" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.configurator_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core.win32_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.core.win32" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.core.win32_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core_3.2.201.FSL_b02025-A22.jar   Bundle "org.eclipse.update.core" version "3.2.201.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.core_3.2.201.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.979
+!MESSAGE Could not install bundle plugins/org.eclipse.update.scheduler_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.scheduler" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.scheduler_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.995
+!MESSAGE Could not install bundle plugins/org.eclipse.update.ui_3.2.100.FSL_b02025-A22.jar   Bundle "org.eclipse.update.ui" version "3.2.100.FSL_b02025-A22" has already been installed from: reference:file:plugins/org.eclipse.update.ui_3.2.100.FSL_b02025-A22.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.995
+!MESSAGE Could not install bundle plugins/org.mortbay.jetty_5.1.14.v200806031611.jar   Bundle "org.mortbay.jetty" version "5.1.14.v200806031611" has already been installed from: reference:file:plugins/org.mortbay.jetty_5.1.14.v200806031611.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:09.995
+!MESSAGE Could not install bundle plugins/org.sat4j.core_2.1.0.v20090520.jar   Bundle "org.sat4j.core" version "2.1.0.v20090520" has already been installed from: reference:file:plugins/org.sat4j.core_2.1.0.v20090520.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2012-11-16 13:22:10.010
+!MESSAGE Could not install bundle plugins/org.sat4j.pb_2.1.0.v20090520.jar   Bundle "org.sat4j.pb" version "2.1.0.v20090520" has already been installed from: reference:file:plugins/org.sat4j.pb_2.1.0.v20090520.jar
+
+!ENTRY org.eclipse.osgi 2 0 2012-11-16 13:22:27.656
+!MESSAGE While loading class "com.freescale.analysis.PluginLog", thread "Thread[Worker-8,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "update@plugins/com.freescale.analysis_1.1.0/ [149]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "com.freescale.analysis.PluginLog" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/com.freescale.analysis_1.1.0/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 17 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2012-11-16 13:22:29.401
+!MESSAGE WARNING: Prevented recursive attempt to activate part com.freescale.core.ide.projectsview.ProjectsView while still in the middle of activating part org.eclipse.cdt.ui.editor.asm.AsmEditor
+!STACK 0
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part com.freescale.core.ide.projectsview.ProjectsView while still in the middle of activating part org.eclipse.cdt.ui.editor.asm.AsmEditor
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(WorkbenchPage.java:3441)
+	at org.eclipse.ui.internal.WorkbenchPage.requestActivation(WorkbenchPage.java:3034)
+	at org.eclipse.ui.internal.PartPane.requestActivation(PartPane.java:272)
+	at org.eclipse.ui.internal.PartPane.handleEvent(PartPane.java:236)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1050)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1074)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1420)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2611)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Widget.java:2399)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Control.java:4593)
+	at org.eclipse.swt.widgets.Tree.WM_SETFOCUS(Tree.java:6901)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4030)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5838)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4731)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:978)
+	at org.eclipse.swt.widgets.Control.setSavedFocus(Control.java:3248)
+	at org.eclipse.swt.widgets.Decorations.restoreFocus(Decorations.java:821)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1639)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2108)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3958)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2032)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4731)
+	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.destroyWidget(Control.java:667)
+	at org.eclipse.swt.widgets.Shell.destroyWidget(Shell.java:693)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:817)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:445)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:710)
+	at org.eclipse.jface.window.Window.close(Window.java:335)
+	at org.eclipse.jface.dialogs.Dialog.close(Dialog.java:979)
+	at org.eclipse.jface.dialogs.MessageDialog.buttonPressed(MessageDialog.java:167)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1050)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3984)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3577)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.openQuestion(MessageDialog.java:371)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.handleEditorInputChanged(AbstractTextEditor.java:4503)
+	at org.eclipse.ui.texteditor.StatusTextEditor.handleEditorInputChanged(StatusTextEditor.java:229)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.sanityCheckState(AbstractTextEditor.java:4633)
+	at org.eclipse.ui.texteditor.StatusTextEditor.sanityCheckState(StatusTextEditor.java:219)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.safelySanityCheckState(AbstractTextEditor.java:4611)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ActivationListener.handleActivation(AbstractTextEditor.java:927)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ActivationListener.partActivated(AbstractTextEditor.java:884)
+	at org.eclipse.ui.internal.PartListenerList$1.run(PartListenerList.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.PartListenerList.fireEvent(PartListenerList.java:57)
+	at org.eclipse.ui.internal.PartListenerList.firePartActivated(PartListenerList.java:70)
+	at org.eclipse.ui.internal.PartService.firePartActivated(PartService.java:186)
+	at org.eclipse.ui.internal.PartService.setActivePart(PartService.java:305)
+	at org.eclipse.ui.internal.WWinPartService.updateActivePart(WWinPartService.java:124)
+	at org.eclipse.ui.internal.WWinPartService.access$0(WWinPartService.java:115)
+	at org.eclipse.ui.internal.WWinPartService$1.partDeactivated(WWinPartService.java:48)
+	at org.eclipse.ui.internal.PartListenerList2$4.run(PartListenerList2.java:113)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:53)
+	at org.eclipse.ui.internal.PartListenerList2.firePartDeactivated(PartListenerList2.java:111)
+	at org.eclipse.ui.internal.PartService.firePartDeactivated(PartService.java:241)
+	at org.eclipse.ui.internal.PartService.setActivePart(PartService.java:299)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.fireActivePartChanged(WorkbenchPagePartList.java:56)
+	at org.eclipse.ui.internal.PartList.setActivePart(PartList.java:126)
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(WorkbenchPage.java:3491)
+	at org.eclipse.ui.internal.WorkbenchPage.requestActivation(WorkbenchPage.java:3034)
+	at org.eclipse.ui.internal.PartPane.requestActivation(PartPane.java:272)
+	at org.eclipse.ui.internal.EditorPane.requestActivation(EditorPane.java:98)
+	at org.eclipse.ui.internal.PartPane.handleEvent(PartPane.java:236)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1050)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1074)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1420)
+	at org.eclipse.swt.widgets.Shell.WM_MOUSEACTIVATE(Shell.java:2291)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4004)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2032)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2433)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4744)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3003)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3572)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY org.eclipse.osgi 2 0 2012-11-16 13:22:32.682
+!MESSAGE While loading class "com.freescale.analysis.AnalysisConsole", thread "Thread[Worker-8,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "update@plugins/com.freescale.analysis_1.1.0/ [149]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "com.freescale.analysis.AnalysisConsole" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/com.freescale.analysis_1.1.0/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.PluginLog.<clinit>(PluginLog.java:9)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 18 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.PluginLog.<clinit>(PluginLog.java:9)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2012-11-16 13:22:38.073
+!MESSAGE While loading class "com.freescale.analysis.ResourceManager", thread "Thread[Worker-8,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "update@plugins/com.freescale.analysis_1.1.0/ [149]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "com.freescale.analysis.ResourceManager" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/com.freescale.analysis_1.1.0/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.AnalysisConsole.<init>(AnalysisConsole.java:71)
+	at com.freescale.analysis.PluginLog.<clinit>(PluginLog.java:9)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 19 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.AnalysisConsole.<init>(AnalysisConsole.java:71)
+	at com.freescale.analysis.PluginLog.<clinit>(PluginLog.java:9)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2012-11-16 13:22:43.073
+!MESSAGE While loading class "com.freescale.analysis.ResourceManager$1", thread "Thread[Worker-8,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "update@plugins/com.freescale.analysis_1.1.0/ [149]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "com.freescale.analysis.ResourceManager$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/com.freescale.analysis_1.1.0/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.ResourceManager.<clinit>(ResourceManager.java:38)
+	at com.freescale.analysis.AnalysisConsole.<init>(AnalysisConsole.java:71)
+	at com.freescale.analysis.PluginLog.<clinit>(PluginLog.java:9)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 20 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.ResourceManager.<clinit>(ResourceManager.java:38)
+	at com.freescale.analysis.AnalysisConsole.<init>(AnalysisConsole.java:71)
+	at com.freescale.analysis.PluginLog.<clinit>(PluginLog.java:9)
+	at com.freescale.analysis.EngineServerRegistry.doConnectEngine(EngineServerRegistry.java:286)
+	at com.freescale.analysis.EngineServerRegistry.access$100(EngineServerRegistry.java:45)
+	at com.freescale.analysis.EngineServerRegistry$ConnectEngineJob.run(EngineServerRegistry.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2012-11-16 13:22:48.073
+!MESSAGE While loading class "com.freescale.analysis.analysispoints.AnalysispointManager$AnalysispointManagerVisitor", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "update@plugins/com.freescale.analysis_1.1.0/ [149]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "com.freescale.analysis.analysispoints.AnalysispointManager$AnalysispointManagerVisitor" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/com.freescale.analysis_1.1.0/" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.analysispoints.AnalysispointManager.resourceChanged(AnalysispointManager.java:846)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:303)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 22 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.freescale.analysis.analysispoints.AnalysispointManager.resourceChanged(AnalysispointManager.java:846)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:303)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-16 13:22:48.791
+!MESSAGE Indexed 'Lab4' (0 sources, 15 headers) in 0.48 sec: 3 declarations; 37 references; 1 unresolved inclusions; 1 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.freescale.core.debugger.cdt 4 16777218 2012-11-16 14:04:40.474
+!MESSAGE ColdFire GDI Protocol Adapter : Can't connect. The Debugger can not connect to OSBDM.
+
+!ENTRY com.freescale.core.debugger.cdt 4 100166 2012-11-16 14:05:50.826
+!MESSAGE Error creating session: Core is already being debugged
+
+!ENTRY org.eclipse.help 4 0 2012-11-16 14:07:14.382
+!MESSAGE Error reading help table of contents file /"com.freescale.doc.help/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:296)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:568)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:537)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:275)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:607)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:239)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:165)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:239)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1119)
+	at org.eclipse.help.ui.internal.views.HelpView.displayContext(HelpView.java:356)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:318)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:276)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayContext(WorkbenchHelpSystem.java:896)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem$WorkbenchHelpListener.helpRequested(WorkbenchHelpSystem.java:140)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:141)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1050)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3984)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3577)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:550)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:505)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1237)
+
+!ENTRY org.eclipse.help 4 0 2012-11-16 14:07:14.539
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.hcs08_compiler/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2012-11-16 14:07:14.539
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.rs08_compiler/toc.xml" (skipping element)

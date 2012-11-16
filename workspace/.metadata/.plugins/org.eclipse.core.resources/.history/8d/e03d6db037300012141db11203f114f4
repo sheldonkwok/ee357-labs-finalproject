@@ -1,0 +1,202 @@
+/*
+ * main implementation: use this sample to create your own application
+ *
+ */
+
+
+#include "support_common.h" /* include peripheral declarations and more */
+#include "usc_support.h"
+#include "lcd128x64.h"
+#include "fonts.h"
+#include "i2c.h"
+#include <string.h>
+#if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
+/* Standard IO is only possible if Console or UART support is enabled. */
+#include <stdio.h>
+#endif
+
+
+ts_lm75     lm75;              // create struct for Temp Sensor
+ts_lm75     *p_lm75;
+
+
+void init_gpio()
+{
+	
+	// Init. input buttons that are connected to PortTA
+	MCF_GPIO_PTAPAR = 0 
+	    | MCF_GPIO_PTAPAR_ICOC0_GPIO
+	    | MCF_GPIO_PTAPAR_ICOC1_GPIO;
+	/* Set Data Direction to all input */
+	MCF_GPIO_DDRTA = 0;
+	
+    /* Enable 4 LED signals as GPIO */
+    MCF_GPIO_PTCPAR = 0
+        | MCF_GPIO_PTCPAR_DTIN3_GPIO
+        | MCF_GPIO_PTCPAR_DTIN2_GPIO
+        | MCF_GPIO_PTCPAR_DTIN1_GPIO
+        | MCF_GPIO_PTCPAR_DTIN0_GPIO;
+    
+    /* Enable signals as digital outputs */
+    MCF_GPIO_DDRTC = 0
+        | MCF_GPIO_DDRTC_DDRTC3
+        | MCF_GPIO_DDRTC_DDRTC2
+        | MCF_GPIO_DDRTC_DDRTC1
+        | MCF_GPIO_DDRTC_DDRTC0;
+
+	/* Enable 2 LED's on iMn FM board */
+	MCF_GPIO_PTHPAR = 0 
+		| MCF_GPIO_PTHPAR_MB_D0_GPIO
+		| MCF_GPIO_PTHPAR_MB_D2_GPIO;
+	
+	MCF_GPIO_DDRTH = MCF_GPIO_DDRTH_DDRTH0 | MCF_GPIO_DDRTH_DDRTH2;
+
+}
+
+
+int get_SW1_v2()
+{
+	int i;
+	// Read the current state of the switch 
+	if(!(MCF_GPIO_SETTA & MCF_GPIO_SETTA_SETTA0))
+	{
+		cpu_pause(5000);
+		if(!(MCF_GPIO_SETTA & MCF_GPIO_SETTA_SETTA0))
+		{
+			// Wait until button is released
+			while(!(MCF_GPIO_SETTA & MCF_GPIO_SETTA_SETTA0));
+			return 1;	
+		}
+	}
+	return 0;
+
+}
+
+int get_SW3_v2()
+{
+	int i;
+	/* Read the current state of the switch */
+	if(!(MCF_GPIO_SETTA & MCF_GPIO_SETTA_SETTA1))
+	{
+		cpu_pause(5000);
+		if(!(MCF_GPIO_SETTA & MCF_GPIO_SETTA_SETTA1))
+		{
+			// Wait until button is released
+			while(!(MCF_GPIO_SETTA & MCF_GPIO_SETTA_SETTA1));
+			return 1;			
+		}
+	}
+	return 0;
+}
+
+
+int main(void)
+{
+	//Initiate variables
+	int counter = 0;
+	int second = 0;
+	int decisecond = 0;
+	char mybuf[15];
+	char output[4];
+	int started = 0;
+	int lap = 0;
+	
+	uint8 reg_addr 		= ge_TS_LM75_TEMP_ADDR;           
+
+#if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
+	printf("Hello World in C++ from MCF52259 derivative on MCF52259 board\n\r");
+#endif
+	p_lm75              = &lm75;
+
+	init_gpio();
+	i2c_init();
+	
+	init_lcd();                                         // initialize LCD display
+    grphErase();                                        // clear
+    grphText (20,10,FONT_NINE_DOT,(unsigned char *)"00:0");
+    grphUpdate(SCRN_TOP,SCRN_BOTTOM);
+
+    //Loop program
+  	while (1){
+
+  		//Keep internal timer
+  		if(started) {
+  			//cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
+  			decisecond++;
+  			if(decisecond == 10) {
+  				decisecond = 0;
+  				second++;
+  			}
+  			
+  			//Reset timer count
+  			if(second == 60 && decisecond == 0) {
+  				second = 0;
+  				decisecond = 0;
+  			}
+
+  			//Generate output
+  			sprintf(mybuf,"%d",second);
+			if(second < 10) {
+				output[0] = '0';
+				output[1] = mybuf[0];
+			} else {
+				output[0] = mybuf[0];
+				output[1] = mybuf[1];
+			}
+			
+			output[2] = ':';
+			
+			sprintf(mybuf,"%d",decisecond);
+			output[3] = mybuf[0];
+			
+			printf(output);
+			printf("\n");
+			
+			//Don't graph output if in lap state
+  			if(!lap) {		
+				grphErase();
+				grphText(20,10,FONT_NINE_DOT,(unsigned char *)output);
+				grphUpdate(SCRN_TOP,SCRN_BOTTOM);
+  			} 
+  		}
+  		
+  		//Button 1 pressed
+  		if(get_SW1_v2()){
+			MCF_GPIO_PORTTH ^= MCF_GPIO_PORTTH_PORTTH0;
+			printf("button1");
+			printf("\n");
+			if(lap){
+				lap = 0;
+			} else {
+				started = started ? 0 : 1;
+			}
+			
+  		}
+  		
+  		//Button 3 pressed
+  		if(get_SW3_v2()){		
+			MCF_GPIO_PORTTH ^= MCF_GPIO_PORTTJ_PORTTJ2;
+		    printf("button2");
+		    printf("\n");
+		    
+		    //Determine whether to reset or change lap state
+		    if(lap || !started) {
+				second = 0;
+				decisecond = 0;
+				printf("Resetting to 00:0");
+				printf("\n");
+				started = 0;
+				lap = 0;
+				grphErase();                                       
+				grphText (20,10,FONT_NINE_DOT,(unsigned char *)"00:0");
+				grphUpdate(SCRN_TOP,SCRN_BOTTOM);
+			} else {
+				lap = lap ? 0 : 1;
+			}
+  		}
+  	}
+	
+	for(;;) {	   
+	   	counter++;
+	}
+}

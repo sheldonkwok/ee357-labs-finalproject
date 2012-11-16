@@ -15,11 +15,6 @@
 #include <stdio.h>
 #endif
 
-
-ts_lm75     lm75;              // create struct for Temp Sensor
-ts_lm75     *p_lm75;
-
-
 void init_gpio()
 {
 	
@@ -98,18 +93,17 @@ int main(void)
 	int decisecond = 0;
 	char mybuf[15];
 	char output[4];
-	int started = 0;
-	int lap = 0;
+	int started = 0; // started running or not
+	int lap = 0; // in the lap state or not
 	
 	uint8 reg_addr 		= ge_TS_LM75_TEMP_ADDR;           
 
 #if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
 	printf("Hello World in C++ from MCF52259 derivative on MCF52259 board\n\r");
 #endif
-	p_lm75              = &lm75;
 
 	init_gpio();
-	i2c_init();
+//	i2c_init();
 	
 	init_lcd();                                         // initialize LCD display
     grphErase();                                        // clear
@@ -121,7 +115,7 @@ int main(void)
 
   		//Keep internal timer
   		if(started) {
-  			cpu_pause(100000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run.
+  			cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
   			decisecond++;
   			if(decisecond == 10) {
   				decisecond = 0;
@@ -157,7 +151,7 @@ int main(void)
 				grphErase();
 				grphText(20,10,FONT_NINE_DOT,(unsigned char *)output);
 				grphUpdate(SCRN_TOP,SCRN_BOTTOM);
-  			}
+  			} 
   		}
   		
   		//Button 1 pressed
@@ -165,8 +159,12 @@ int main(void)
 			MCF_GPIO_PORTTH ^= MCF_GPIO_PORTTH_PORTTH0;
 			printf("button1");
 			printf("\n");
+			if(lap){
+				lap = 0;
+			} else {
+				started = started ? 0 : 1;
+			}
 			
-			started = started ? 0 : 1;
   		}
   		
   		//Button 3 pressed
@@ -181,6 +179,7 @@ int main(void)
 				decisecond = 0;
 				printf("Resetting to 00:0");
 				printf("\n");
+				started = 0;
 				lap = 0;
 				grphErase();                                       
 				grphText (20,10,FONT_NINE_DOT,(unsigned char *)"00:0");
