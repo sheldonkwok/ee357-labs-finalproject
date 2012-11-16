@@ -1,0 +1,146 @@
+
+
+#>00000400          ___heap_size (linker command file)
+#>00000800          ___stack_size (linker command file)
+#>40000000          ___IPSBAR (linker command file)
+#>20000000          ___RAMBAR (linker command file)
+#>0000FFFF          ___RAMBAR_SIZE (linker command file)
+#>00000000          ___FLASHBAR (linker command file)
+#>00080000          ___FLASHBAR_SIZE (linker command file)
+#>2000FFFB          ___SP_AFTER_RESET (linker command file)
+
+# .userram
+
+# .code
+
+# .vectorram
+
+# .vectors
+  20000500 00000400 .vectortable _vect	(exceptions.obj)
+
+# .text
+  20000900 00000008 .text   __initialize_system	(startcf.obj)
+  20000908 00000056 .text   __copy_rom_section	(startcf.obj)
+  2000095E 00000046 .text   __copy_rom_sections_to_ram	(startcf.obj)
+  200009A4 00000004 .text   _ExitProcess	(startcf.obj)
+  200009A8 0000014E .text   clear_mem	(startcf.obj)
+  20000AF6 0000009A .text   _startup	(startcf.obj)
+  20000B90 0000004A .text   cpu_pause	(usc_support.obj)
+  20000BDA 00000030 .text   init_gpio	(main.obj)
+  20000C0A 0000003C .text   get_SW1_v2	(main.obj)
+  20000C46 0000003C .text   get_SW3_v2	(main.obj)
+  20000C82 000001F2 .text   main	(main.obj)
+  20000E74 00000022 .text   init_lcd	(lcd128x64.obj)
+  20000E96 000001D2 .text   grphInit	(lcd128x64.obj)
+  20001068 0000001C .text   grphBackground	(lcd128x64.obj)
+  20001084 0000001E .text   grphContrast	(lcd128x64.obj)
+  200010A2 000000B2 .text   grphOutDat	(lcd128x64.obj)
+  20001154 000000B4 .text   grphOutCtrl	(lcd128x64.obj)
+  20001208 000000BE .text   grphErase	(lcd128x64.obj)
+  200012C6 000001DE .text   grphText	(lcd128x64.obj)
+  200014A4 000001A6 .text   grphGlyph	(lcd128x64.obj)
+  2000164A 000000C2 .text   grphUpdate	(lcd128x64.obj)
+  2000170C 00000028 .text   i2c_init	(i2c.obj)
+  20001734 00000004 .text   TrapHandler_printf	(exceptions.obj)
+  20001738 000001E4 .text   mcf_exception_handler	(exceptions.obj)
+  2000191C 00000020 .text   asm_exception_handler	(exceptions.obj)
+  2000193C 00000008 .text   mcf5xxx_wr_vbr	(exceptions.obj)
+  20001944 00000058 .text   initialize_exceptions	(exceptions.obj)
+  2000199C 00000016 .text   TRKAccessFile	(console_io_cf.obj)
+  200019B2 0000007A .text   __access_file	(console_io_cf.obj)
+  20001A2C 00000020 .text   __write_console	(console_io_cf.obj)
+  20001A4C 0000001E .text   pll_init	(MCF52259_sysinit.obj)
+  20001A6A 00000052 .text   __initialize_hardware	(MCF52259_sysinit.obj)
+  20001ABC 00000012 .text   memcpy	(libc.a mem.o          )
+  20001ACE 00000020 .text   memchr	(libc.a mem.o          )
+  20001AEE 00000028 .text   __ConsoleWrite	(libc.a printf.o       )
+  20001B16 00000040 .text   __StringWrite	(libc.a printf.o       )
+  20001B56 00000022 .text   printf_console	(libc.a printf.o       )
+  20001B78 0000005A .text   vsnprintf	(libc.a printf.o       )
+  20001BD2 0000001A .text   sprintf	(libc.a printf.o       )
+  20001BEC 00000010 .text   strlen	(libc.a string.o       )
+  20001BFC 00000030 .text   strchr	(libc.a string.o       )
+  20001C2C 00000026 .text   isdigit	(libc.a strtold.o      )
+  20001C52 000002A8 .text   parse_format	(libc.a printformat_.o )
+  20001EFA 0000002A .text   set_base	(libc.a printformat_.o )
+  20001F24 000000D6 .text   justify_conversion	(libc.a printformat_.o )
+  20001FFA 00000114 .text   long2str	(libc.a printformat_.o )
+  2000210E 000003F8 .text   __pformatter	(libc.a printformat_.o )
+  20002506 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  20002522 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  2000254E 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+  2000255C 00000040 .rodata @140	(main.obj)
+  2000259C 00000005 .rodata @141	(main.obj)
+  200025A1 00000003 .rodata @142	(main.obj)
+  200025A4 00000002 .rodata @143	(main.obj)
+  200025A6 00000008 .rodata @144	(main.obj)
+  200025AE 00000008 .rodata @145	(main.obj)
+  200025B6 00000012 .rodata @146	(main.obj)
+  200025C8 00000008 .rodata l_mask_array	(lcd128x64.obj)
+  200025D0 00000028 .rodata fonts	(fonts.obj)
+  200025F8 000005F0 .rodata seven_dot_glyph_table	(fonts.obj)
+  20002BE8 0000005F .rodata seven_dot_width_table	(fonts.obj)
+  20002C47 00000474 .rodata nine_dot_glyph_table	(fonts.obj)
+  200030BB 00000081 .rodata _ctypes_	(libc.a ctype.o        )
+  2000313C 00000001 .rodata @609	(libc.a printformat_.o )
+#>20003140          ___ROM_AT (linker command file)
+#>20003140          ___DATA_ROM (linker command file)
+
+# .data
+#>20005000          ___DATA_RAM (linker command file)
+#>20005000          __exception_table_start__ (linker command file)
+# Exception index
+  20005000 00000000         Exception Table Index	()
+#>20005000          __exception_table_end__ (linker command file)
+#>20005000          ___sinit__ (linker command file)
+# Linker generated symbols
+  20005000 00000004         static initializer	(linker generated)
+#>20005004          __START_DATA (linker command file)
+#>20005004          __END_DATA (linker command file)
+#>20005004          __START_SDATA (linker command file)
+#>20005004          __END_SDATA (linker command file)
+#>20005004          ___DATA_END (linker command file)
+#>20005004          __SDA_BASE (linker command file)
+
+# .bss
+#>20005004          ___BSS_START (linker command file)
+#>20005004          __START_SBSS (linker command file)
+#>20005004          __END_SBSS (linker command file)
+#>20005004          __START_BSS (linker command file)
+  20005004 00000004 .bss    p_lm75	(main.obj)
+  20005008 00000006 .bss    lm75	(main.obj)
+  2000500E 00000400 .bss    l_display_array	(lcd128x64.obj)
+  20005410 00000004 .bss    __global_destructor_chain	(librt.a cf_staticinitia)
+#>20005414          __END_BSS (linker command file)
+#>20005414          ___BSS_END (linker command file)
+
+# .custom
+#>20005414          ___HEAP_START (linker command file)
+#>20005414          ___heap_addr (linker command file)
+#>20005814          ___HEAP_END (linker command file)
+#>20005814          ___SP_END (linker command file)
+#>20006014          ___SP_INIT (linker command file)
+#>20000000          ___VECTOR_RAM (linker command file)
+#>20006014          __SP_INIT (linker command file)
+#>20005814          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>20003144          _romp_at (linker command file)
+
+# .romp
+#>20003144          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  20000000 20000000 00000000 .vectorram vectorram
+  20000500 20000500 00000000 .code      code
+  20000500 20000500 00000400 .vectors   code
+  20000900 20000900 00002840 .text      code
+  20005000 20005000 00000000 .userram   userram
+  20005000 20003140 00000004 .data      userram
+  20005004 20005004 00000410 .bss       userram
+  20005414 20005414 00000000 .custom    userram
+  20005414 20003144 00000018 .romp      userram
+
+# Link start time: Thu Nov 15 00:23:40 2012
+# Link end time: Thu Nov 15 00:23:40 2012
