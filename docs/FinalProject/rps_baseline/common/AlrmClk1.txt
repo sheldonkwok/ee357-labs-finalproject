@@ -1,0 +1,35 @@
+LCD_Clear
+LED_Green_On Local
+Time_Delay,TD=1 Local
+LED_Red_On Local
+Time_Delay,TD=1 Local
+Print_LCD scroll=N,TD=0,NPage=B,Local,Scroll=S,Text=Play SD file
+Time_Delay,TD=1 Local
+Print_LCD scroll=N,TD=0,Local,Scroll=S,Text=Railroad.wav
+
+Play_Sound_File=railroad.wav From_SD Local
+//Set_rtc_Alarm Alarm0 Alarm_On Alarm_On_Min_Secs=0 00:02:21
+//Read_rtc_Alarm
+//Enable_rtc_Alarm
+//
+//              Set_rtc_Alarm {Alarm0||Alarm1} {Alarm_On||Alarm_Off} {Alarm_On_Min_Secs||Alarm_On_Hour_Min_Secs||Alarm_On_Day_Hour_Min_Secs} 
+//                  '='{d hh:mm:ss} // must be on same line, broken here due to length
+LED_Green_Off Local
+Time_Delay,TD=1 Local
+LED_Red_Off Local
+Time_Delay,TD=1 Local
+
+LCD_Clear
+Disp_Clock
+Time_Delay,TD=5 Local
+
+LCD_Clear
+Flash_File WaveFile=dbm822sd.wav Index=1
+Print_LCD scroll=N,TD=0,NPage=B,Local,Scroll=S,Text=Play SD file
+Time_Delay,TD=1 Local
+Print_LCD scroll=N,TD=0,Local,Scroll=S,Text=dbm822sd.wav
+Play_Sound_File=dbm822sd.wav From_Flash Index=1 Local
+LCD_Clear
+// done
+//=====================
+

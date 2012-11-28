@@ -1,0 +1,239 @@
+Local   Print_Audit_On
+Local   LCD_Clear
+//
+Remote  Print_Audit_On
+Remote  LCD_Clear
+//
+Local   Print_LCD Scroll N,TD 0,NPage N,Font 6,Text=Please wait for prompt
+Local   Print_LCD Scroll Y,TD 0,NPage N,Font 6,Text=before pushing switch,
+Local   Print_LCD Scroll Y,TD 0,NPage N,Font 6,Text=Increasing font ..soon :)
+Local   Print_LCD Scroll Y,TD 0,NPage N,Font 6,Text=Press Nav key to continue
+Local   Wait_On_Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  Introduction                                         //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Font 9,Text=     RPS
+Local   Print_LCD Scroll Y,TD 0,NPage N,Font 9,Text=     iMn
+Local   Print_LCD Scroll Y,TD 0,NPage N,Font 9,Text= MicroControl
+Local   Print_LCD Scroll Y,TD 0,NPage N,Font 9,Text=(604) 630.9341
+//
+Remote  LCD_Clear
+Remote  Print_LCD Scroll N,TD 0,NPage N,Font 9,Text=     RPS
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Font 9,Text=     iMn
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Font 9,Text= MicroControl
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Font 9,Text=(604) 630.9341
+//
+Local   Play_Sound_File sam_00.wav From_SD
+Remote  Play_Sound_File intro_00.wav From_SD
+//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=To Continue
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Press any
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Nav Switch
+Local   Wait_On_Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  Serial - HyperTerminal Setup                         //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text= 38400 baud
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text= 1 stop
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=no parity
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=no flow control
+//
+Remote  Play_Sound_File ser_00.wav From_SD
+//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=To Continue
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Press any
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Nav Switch
+Local   Wait_On_Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  Script and Display on the LCD                        //
+//  Real Time Clock                                      //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Remote  LCD_Clear
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=The Time
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=in Austin, Tx
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=is....
+//
+Remote  Print_LCD Scroll N,TD 0,NPage N,Text=The Time
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Text=in Austin, Tx
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Text=is....
+//
+Local   Play_Sound_File rtc_00.wav From_SD
+//
+Local   LCD_Clear
+Remote  LCD_Clear
+Local   Disp_Clock Font 15
+Remote  Disp_Clock Font 15
+Local   Time_Delay,TD 3
+//
+Local   LCD_Clear
+Remote  LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=To Continue
+Local   Print_LCD Scroll y,TD 0,NPage N,Text=Press any
+Local   Print_LCD Scroll y,TD 0,NPage N,Text=Nav Switch
+Local   Wait_On_Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  SD Card Demo                                         //
+//      (Without Processor Expert)                       //
+//     The Embedded Designers Theme Song                 //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=SD Card
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Demo
+//
+Local   Play_Sound_File sd_00.wav From_SD
+Remote  Play_Sound_File fwm822.wav From_SD
+//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=To Continue
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Press any
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Nav Switch
+Local   Wait_On_Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  Flash file, write a portion of a wave file           //
+//      from SD card to flash                            //
+//      then play from flash                             //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Local   LCD_Clear
+Remote  LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=Flash File
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=From SD Card
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=To spi Flash
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Play from Flash
+//
+Remote  Print_LCD Scroll N,TD 0,NPage N,Text=Flash File
+Remote  Print_LCD Scroll N,TD 0,NPage N,Text=From SD Card
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Text=To spi Flash
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Text=Play from Flash
+//
+Local   Play_Sound_File flash_00.wav From_SD
+Local   LCD_Clear
+Remote  LCD_Clear
+Remote  Flash_File WaveFile dbm822sd.wav Index=1
+Remote  Play_Sound_File dbm822sd.wav From_Flash Index=1
+//
+Local   LCD_Clear
+Remote  LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=To Continue
+Local   Print_LCD Scroll y,TD 0,NPage N,Text=Press any
+Local   Print_LCD Scroll y,TD 0,NPage N,Text=Nav Switch
+Local   Wait_On_Key
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  LED's blinking                                       //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Local   LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=   Blinking LED
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=      Demo
+//
+Remote  Print_LCD Scroll N,TD 0,NPage N,Text=   Blinking LED
+Remote  Print_LCD Scroll Y,TD 0,NPage N,Text=      Demo
+//
+Remote  Play_Sound_File leds_00.wav From_SD
+//
+Local   LED_Green_Off
+Local   LED_Red_Off
+//
+Remote  LED_Green_Off
+Remote  LED_Red_Off
+//
+//
+Local   LCD_BackLite_On
+Remote  LCD_BackLite_On
+//
+Local   LED_Green_On
+Remote  LED_Green_On
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_Off
+Remote  LCD_BackLite_Off
+//
+Local   LED_Green_Off
+Remote  LED_Green_Off
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_On
+Remote  LCD_BackLite_On
+//
+Local   LED_Green_On
+Remote  LED_Green_On
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_Off
+Remote  LCD_BackLite_Off
+//
+Local   LED_Green_Off
+Remote  LED_Green_Off
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_On
+Remote  LCD_BackLite_On
+Remote  LED_Red_On
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_Off
+Remote  LCD_BackLite_Off
+Local   LED_Red_Off
+Remote  LED_Red_Off
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_On
+Remote  LCD_BackLite_On
+Local   LED_Red_On
+Remote  LED_Red_On
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_Off
+Remote  LCD_BackLite_Off
+Local   LED_Red_Off
+Remote  LED_Red_Off
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_On
+Remote  LCD_BackLite_On
+Local   LED_Red_On
+Remote  LED_Red_On
+Local   LED_Green_On
+Remote  LED_Green_On
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_Off
+Remote  LCD_BackLite_Off
+Local   LED_Green_Off
+Remote  LED_Green_Off
+Local   LED_Red_Off
+Remote  LED_Red_Off
+Local   Time_Delay,TD 1
+//
+Local   LCD_BackLite_On
+Remote  LCD_BackLite_On
+Local   LED_Red_On
+Remote  LED_Red_On
+Local   LED_Green_On
+Remote  LED_Green_On
+Local   Time_Delay,TD 1
+//
+Local   LED_Green_Off
+Remote  LED_Green_Off
+Local   LED_Red_Off
+Remote  LED_Red_Off
+//
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+//  Conclusion                                           //
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+Local   LCD_Clear
+Remote  LCD_Clear
+Local   Print_LCD Scroll N,TD 0,NPage N,Text=To Continue
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Press any
+Local   Print_LCD Scroll Y,TD 0,NPage N,Text=Nav Switch
+Local   Wait_On_Key
+//
+Local   Play_Sound_File concl_00.wav From_SD
+Remote  Play_Sound_File sum_00.wav From_SD
+//=====================
+// done
+//=====================
+

@@ -3,9 +3,12 @@
 <Element Type="TaskGroup">
 <TaskGroup GroupName="Root" NumberOfElements="1">
 <Element Type="TaskGroup">
-<TaskGroup GroupName="AutoFlash" NumberOfElements="1">
+<TaskGroup GroupName="AutoFlash" NumberOfElements="2">
 <Element Type="TargetTask">
 <TargetTask TaskStoringFile="C:\Users\johnny\Desktop\Dropbox\Study\EE 357\Lab\workspace\ee357_lab3_FP_emulation\Project_Settings\Debugger\MCF52259_INTFLASH.ttf"/>
+</Element>
+<Element Type="TargetTask">
+<TargetTask TaskStoringFile="C:\Users\johnny\Desktop\Dropbox\Study\EE 357\Lab\workspace\finalProject\Project_Settings\Debugger\CopyOfMCF52259_INTFLASH.ttf"/>
 </Element>
 </TaskGroup>
 </Element>
@@ -24,6 +27,12 @@
 <RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ee357_lab3_FP_emulation/Project_Settings/Debugger/ee357_lab3_FP_emulation_MCF52259_Console_Internal_RAM_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="ee357_lab3_FP_emulation_MCF52259_Console_Internal_RAM_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
 <RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ee357_lab3_FP_emulation/Project_Settings/Debugger/ee357_lab3_FP_emulation_MCF52259_Internal_RAM_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="ee357_lab3_FP_emulation_MCF52259_Internal_RAM_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
 <RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/ee357_lab3_FP_emulation/Project_Settings/Debugger/ee357_lab3_FP_emulation_MCF52259_Internal_Flash_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="ee357_lab3_FP_emulation_MCF52259_Internal_Flash_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/Lab4/Project_Settings/Debugger/Lab4_MCF52259_Internal_RAM_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="Lab4_MCF52259_Internal_RAM_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/Lab4/Project_Settings/Debugger/Lab4_MCF52259_Internal_Flash_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="Lab4_MCF52259_Internal_Flash_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/Lab4/Project_Settings/Debugger/Lab4_MCF52259_Console_Internal_RAM_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="Lab4_MCF52259_Console_Internal_RAM_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/finalProject/Project_Settings/Debugger/finalProject_MCF52259_Console_Internal_RAM_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="finalProject_MCF52259_Console_Internal_RAM_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/finalProject/Project_Settings/Debugger/finalProject_MCF52259_Internal_RAM_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="finalProject_MCF52259_Internal_RAM_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/finalProject/Project_Settings/Debugger/finalProject_MCF52259_Internal_Flash_Open Source BDM.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="finalProject_MCF52259_Internal_Flash_Open Source BDM" ExecutionContextType="LaunchConfiguration"/>
 <Provider ProviderName="Flash Programmer for ColdFire V234"/>
 <Provider ProviderName="Flash Programmer for HCS08/RS08/ColdFire V1"/>
 <Provider ProviderName="Hardware Diagnostic"/>
