@@ -100,7 +100,7 @@ int main(void)
 	int az = 0; // 320 (upside-down) to 760 (right-side up)
 	int bc = 0; // 0 is pressed
 	int bz = 0; // 0 is pressed
-		
+	int i = 0;
 	char mymsg1[] = "You pressed button 1";
 	char mymsg2[] = "You pressed button 2";
 	char mybuf[15];
@@ -111,6 +111,11 @@ int main(void)
 
 	init_gpio();
 	i2c_init();
+	
+	for(i=0;i<6;i++)
+	{
+		tempData[i]=0;
+	}
 	// i2c initialization
 	// writing 0x55 to 0x(4)A400F0, then writing 0x00 to 0x(4)A400FB
 	//i2c_write(0xF0, (uint8 *)&(init1), 0x01);
@@ -124,34 +129,31 @@ int main(void)
   	while (1){
   		
 	    //i2c_write(0x00, (uint8 *)&(init0), 0x01);
+  		// possibly delay
+  		// cpu_pause(10000);
         //i2c_read(0x08, (uint8 *)&(tempData), 0x06);
-  		
+  		// maybe read from 0x00
+  		/*
   		tempData[0] = 144;
   		tempData[1] = 202;
   		tempData[2] = 46;
   		tempData[3] = 245;
   		tempData[4] = 107;
-  		tempData[5] = 178;
+  		tempData[5] = 178;*/
 
   		sx = tempData[0];
-  		printf(" SX: %u",sx);
   		sy = tempData[1];
-  		printf(" SY: %u",sy);
   		ax = tempData[2];
   		ax = (ax << 2) | ((tempData[5] >> 2) & 3);
-  		printf(" AX: %u",ax);
   		ay = tempData[3];
   		ay = (ay << 2) | ((tempData[5] >> 4) & 3);
-  		printf(" AY: %u",ay);
   		az = tempData[4];
   		az = (az << 2) | ((tempData[5] >> 6) & 3);
-  		printf(" AZ: %u",az);
 		bc = (tempData[5] >> 1) & 1;
- 		printf(" BC: %u",bc);
 		bz = tempData[5] & 1;
- 		printf(" BZ: %u",bz);
- 		printf("\n");
-  		
+  		printf("SX: %u, SY: %u, AX: %u, AY: %u, AZ: %u, BC: %u, BZ: %u \n",sx, sy, ax, ay, az, bc, bz);
+		
+  		// not my shit below
   		if(get_SW1_v2()){
 			MCF_GPIO_PORTTH ^= MCF_GPIO_PORTTH_PORTTH0;
 		    //grphText (2,2,FONT_SEVEN_DOT,(unsigned char *)"Hello World!");

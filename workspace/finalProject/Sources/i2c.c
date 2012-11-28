@@ -20,7 +20,8 @@ void i2c_init()
 	
 	// changed this to write to 0x(4)A400F0
 	// slave address of 0x52
-	MCF_I2C0_I2ADR = 0x52;
+	// maybe write to 0x52
+	MCF_I2C0_I2ADR = 0xA4;
 	//MCF_I2C0_I2ADR = 0x10;
 
 	MCF_I2C0_I2CR = MCF_I2C_I2CR_IEN;
