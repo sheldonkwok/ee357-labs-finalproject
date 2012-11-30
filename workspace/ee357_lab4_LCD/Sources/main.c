@@ -98,15 +98,11 @@ int main(void)
 	
 	uint8 reg_addr 		= ge_TS_LM75_TEMP_ADDR;           
 
-#if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
-	printf("Hello World in C++ from MCF52259 derivative on MCF52259 board\n\r");
-#endif
-
 	init_gpio();
 //	i2c_init();
 	
 	init_lcd();                                         // initialize LCD display
-    grphErase();                                        // clear
+    //grphErase();                                        // clear
     grphText (20,10,FONT_NINE_DOT,(unsigned char *)"00:0");
     grphUpdate(SCRN_TOP,SCRN_BOTTOM);
 
@@ -115,7 +111,7 @@ int main(void)
 
   		//Keep internal timer
   		if(started) {
-  			cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
+  			//cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
   			decisecond++;
   			if(decisecond == 10) {
   				decisecond = 0;
@@ -143,12 +139,12 @@ int main(void)
 			sprintf(mybuf,"%d",decisecond);
 			output[3] = mybuf[0];
 			
-			printf(output);
-			printf("\n");
+			//printf(output);
+			//printf("\n");
 			
 			//Don't graph output if in lap state
   			if(!lap) {		
-				grphErase();
+				//grphErase();
 				grphText(20,10,FONT_NINE_DOT,(unsigned char *)output);
 				grphUpdate(SCRN_TOP,SCRN_BOTTOM);
   			} 
@@ -157,8 +153,8 @@ int main(void)
   		//Button 1 pressed
   		if(get_SW1_v2()){
 			MCF_GPIO_PORTTH ^= MCF_GPIO_PORTTH_PORTTH0;
-			printf("button1");
-			printf("\n");
+			//printf("button1");
+			//printf("\n");
 			if(lap){
 				lap = 0;
 			} else {
@@ -170,18 +166,18 @@ int main(void)
   		//Button 3 pressed
   		if(get_SW3_v2()){		
 			MCF_GPIO_PORTTH ^= MCF_GPIO_PORTTJ_PORTTJ2;
-		    printf("button2");
-		    printf("\n");
+		    //printf("button2");
+		    //printf("\n");
 		    
 		    //Determine whether to reset or change lap state
 		    if(lap || !started) {
 				second = 0;
 				decisecond = 0;
-				printf("Resetting to 00:0");
-				printf("\n");
+				//printf("Resetting to 00:0");
+				//printf("\n");
 				started = 0;
 				lap = 0;
-				grphErase();                                       
+				//grphErase();                                       
 				grphText (20,10,FONT_NINE_DOT,(unsigned char *)"00:0");
 				grphUpdate(SCRN_TOP,SCRN_BOTTOM);
 			} else {
