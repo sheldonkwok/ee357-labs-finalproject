@@ -1,20 +1,19 @@
 /*
- * main implementation: use this sample to create your own application
- *
+ * EE357 Final Project
+ * Phoenix
+ * 
  */
-
-
 #include "support_common.h" /* include peripheral declarations and more */
 #include "usc_support.h"
 #include "lcd128x64.h"
 #include "fonts.h"
 #include "i2c.h"
 #include <string.h>
+#include <stdlib.h>
 #if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
 /* Standard IO is only possible if Console or UART support is enabled. */
 #include <stdio.h>
 #endif
-
 
 //function that initializes joy stick input 
 void init_joy()
@@ -45,7 +44,6 @@ int get_lt_sw_v2()
     return 0;
 }
 
-
 //function that outputs a 1 if joy stick switch is right
 int get_rt_sw_v2()
 {
@@ -64,7 +62,6 @@ int get_rt_sw_v2()
     return 0;
 }
 
-
 //function that outputs a 1 if joy stick switch is down
 int get_down_sw_v2()
 {
@@ -82,6 +79,7 @@ int get_down_sw_v2()
     }
     return 0;
 }
+
 //added a new function that outputs a 1 if switch is up
 int get_up_sw_v2()
 {
@@ -99,13 +97,9 @@ int get_up_sw_v2()
     }
     return 0;
 } 
- 
-
-
 
 void init_gpio()
 {
-	
 	// Init. input buttons that are connected to PortTA
 	MCF_GPIO_PTAPAR = 0 
 	    | MCF_GPIO_PTAPAR_ICOC0_GPIO
@@ -133,9 +127,7 @@ void init_gpio()
 		| MCF_GPIO_PTHPAR_MB_D2_GPIO;
 	
 	MCF_GPIO_DDRTH = MCF_GPIO_DDRTH_DDRTH0 | MCF_GPIO_DDRTH_DDRTH2;
-
 }
-
 
 int get_SW1_v2()
 {
@@ -152,7 +144,6 @@ int get_SW1_v2()
 		}
 	}
 	return 0;
-
 }
 
 int get_SW3_v2()
@@ -176,20 +167,29 @@ int sample = 0;
 
 int main(void)
 {
+	// A character on screen.... can't move beyond edge
+	// move it around using the joystick.
+	// detect sudden change in accelerometer....  output text on bottom (show for a couple frames)
+	// button press triggers boolean or something... output text on bottom (show for a couple frames)
+	
+	// 0 to 121
+	// 0 to 54
 	//Initiate variables
-	int dx = 0;
-	int dy = 0;
+	int dx = 121; // x location
+	int dy = 54; // y location
 	int second = 0;
+	char player;
 	int left;
 	int right;
 	int up;
 	int down;
 	int decisecond = 0;
 	int x=2000,y=2000,z=2000;
-
-	char xbuf[15];
+	
+	char xbuf[1];
 	char ybuf[15];
 	char output[4];
+
 	int started = 0; // started running or not
 	int lap = 0; // in the lap state or not
 	
@@ -233,9 +233,7 @@ int main(void)
 //	i2c_init();
 	
 	init_lcd();                                         // initialize LCD display
-    //grphErase();                                        // clear
-    grphText (20,10,FONT_NINE_DOT,(unsigned char *)"00:0");
-    grphUpdate(SCRN_TOP,SCRN_BOTTOM);
+
 
     //Loop program
   	while (1){
@@ -259,10 +257,11 @@ int main(void)
 		y = MCF_ADC_ADRSLT(1) >> 3;
 		z = MCF_ADC_ADRSLT(2) >> 3;
 		sample = MCF_ADC_ADRSLT(3) >> 3;
-	
 
+
+
+// change after here.
 		myprintf("Debug:  X=%d, Y=%d, Z=%d, POT=%d\r", x,y,z,sample);
-  		
   		
   		left = get_lt_sw_v2();
   		right = get_rt_sw_v2();
@@ -272,53 +271,50 @@ int main(void)
   		if(left)
   		{  			
   	  		grphErase();
-			dx--;		
+			if(dx>0)dx--;		
 		}
   		
   		if(right)
   		{
   	  		grphErase();
-			dx++;	
+			if(dx<121)dx++;	
   		}
   		
   		if(down)
   		{
   	  		grphErase();
-			dy--;	
+			if(dy<54)dy++;	
   		}
   		
   		if(up)
   		{
   	  		grphErase();
-			dy++; 
+			if(dy>0)dy--;
   		}
   		
-  		sprintf(xbuf,"%d",dx);
-  		sprintf(ybuf,"%d",dy);
+  		sprintf(xbuf,"A");  		
   		output[0] = xbuf[0];
   		output[1] = xbuf[1];
   		output[2] = xbuf[2];
   		output[3] = xbuf[3];
-		grphText(20,10,FONT_NINE_DOT,(unsigned char *)output);
-  		output[0] = ybuf[0];
-  		output[1] = ybuf[1];
-  		output[2] = ybuf[2];
-  		output[3] = ybuf[3];
-		grphText(20,40,FONT_NINE_DOT,(unsigned char *)output);
+		grphText(dx,dy,FONT_NINE_DOT,(unsigned char *)output);
 		grphUpdate(SCRN_TOP,SCRN_BOTTOM);
 
-  		
+
+  		// below is from lab 4
+
 		/*if(second < 10) {
 			output[0] = '0';
 			output[1] = mybuf[0];
 		} else {
 			output[0] = mybuf[0];
 			output[1] = mybuf[1];
-		}*/
+		}
+		
 		
 		//
 		
-  		/*
+  		
   		//Keep internal timer
   		if(started) {
   			//cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
@@ -393,8 +389,8 @@ int main(void)
 			} else {
 				lap = lap ? 0 : 1;
 			}
-  		}
-  		*/
-
+  		}*/
+  		
+		
   	}
 }

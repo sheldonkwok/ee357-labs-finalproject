@@ -47,6 +47,9 @@ Sources/main.obj: C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\fi
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\ewl_lib_ext1.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\ewl_rsize_t.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\string_api.h \
+	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\stdlib.h \
+	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\cstdlib \
+	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\div_t.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\stdio.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\cstdio \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\stddef.h \
@@ -55,7 +58,4 @@ Sources/main.obj: C:\Users\johnny\Desktop\Dropbox\Study\EE\ 357\Lab\workspace\fi
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\eof.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\va_list.h \
 	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\file_struc.h \
-	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\stdio_api.h \
-	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\stdlib.h \
-	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\cstdlib \
-	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\div_t.h 
+	C:\Program\ Files\Freescale\CW\ MCU\ v10.0\MCU\ColdFire_Support\ewl\EWL_C\include\stdio_api.h 

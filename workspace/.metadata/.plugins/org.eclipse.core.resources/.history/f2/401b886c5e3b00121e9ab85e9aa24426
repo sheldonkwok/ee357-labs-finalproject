@@ -1,20 +1,23 @@
 /*
- * main implementation: use this sample to create your own application
- *
+ * EE357 Final Project
+ * Phoenix
+ * 
  */
-
-
 #include "support_common.h" /* include peripheral declarations and more */
 #include "usc_support.h"
 #include "lcd128x64.h"
 #include "fonts.h"
 #include "i2c.h"
 #include <string.h>
+#include <stdlib.h>
 #if (CONSOLE_IO_SUPPORT || ENABLE_UART_SUPPORT)
 /* Standard IO is only possible if Console or UART support is enabled. */
 #include <stdio.h>
 #endif
 
+/* I/O Functions */
+
+/* JOYSTICK */
 
 //function that initializes joy stick input 
 void init_joy()
@@ -44,8 +47,6 @@ int get_lt_sw_v2()
     }
     return 0;
 }
-
-
 //function that outputs a 1 if joy stick switch is right
 int get_rt_sw_v2()
 {
@@ -63,8 +64,6 @@ int get_rt_sw_v2()
     }
     return 0;
 }
-
-
 //function that outputs a 1 if joy stick switch is down
 int get_down_sw_v2()
 {
@@ -99,13 +98,11 @@ int get_up_sw_v2()
     }
     return 0;
 } 
- 
 
-
+/* LCD */
 
 void init_gpio()
 {
-	
 	// Init. input buttons that are connected to PortTA
 	MCF_GPIO_PTAPAR = 0 
 	    | MCF_GPIO_PTAPAR_ICOC0_GPIO
@@ -133,10 +130,8 @@ void init_gpio()
 		| MCF_GPIO_PTHPAR_MB_D2_GPIO;
 	
 	MCF_GPIO_DDRTH = MCF_GPIO_DDRTH_DDRTH0 | MCF_GPIO_DDRTH_DDRTH2;
-
 }
-
-
+// get switch 1
 int get_SW1_v2()
 {
 	int i;
@@ -152,9 +147,8 @@ int get_SW1_v2()
 		}
 	}
 	return 0;
-
 }
-
+// get switch 3
 int get_SW3_v2()
 {
 	int i;
@@ -172,7 +166,44 @@ int get_SW3_v2()
 	return 0;
 }
 
-int sample = 0;
+/* ACCELEROMETER */
+int init_accel()
+{
+	/****************************************/
+	/* Setup ADC0 on M52259 Tower Board        */
+	/****************************************/
+	/* Setting PortAN0 as ADC functionality */
+	MCF_GPIO_PANPAR |= MCF_GPIO_PANPAR_PANPAR3 
+					  | MCF_GPIO_PANPAR_PANPAR2 
+					  | MCF_GPIO_PANPAR_PANPAR1
+					  | MCF_GPIO_PANPAR_PANPAR0;
+
+	/****************************************/
+	/* Setup ADC Module					    */
+	/****************************************/
+
+	/* Initialize the CRTL1 register to 0's with SMODE = Once Sequential = 000 */
+	MCF_ADC_CTRL1 = 0 | MCF_ADC_CTRL1_SMODE(0);
+
+	/* Setting divisor in CTRL2 register */
+	MCF_ADC_CTRL2 = MCF_ADC_CTRL2_DIV(3);
+
+	/* Setting Power Register appropriately - PUDELAY & clear PD0*/
+	MCF_ADC_POWER = MCF_ADC_POWER_PUDELAY(4);
+
+	/* Set AN0 to sample channel 3 once.  Note we will only look 	*/
+	/* at the result of sample 0 even though the ADC will take  	*/
+	/* an 8 sample scan 											*/
+	MCF_ADC_ADLST1 = 0 | MCF_ADC_ADLST1_SAMPLE0(0)
+						| MCF_ADC_ADLST1_SAMPLE1(1)
+						| MCF_ADC_ADLST1_SAMPLE2(2)
+						| MCF_ADC_ADLST1_SAMPLE3(3);
+
+	/* Clear stop bit */
+	MCF_ADC_CTRL1 &= ~MCF_ADC_CTRL1_STOP0;
+	
+	return 0;
+}
 
 int main(void)
 {
@@ -181,93 +212,45 @@ int main(void)
 	// detect sudden change in accelerometer....  output text on bottom (show for a couple frames)
 	// button press triggers boolean or something... output text on bottom (show for a couple frames)
 	
-	
-	//Initiate variables
-	int dx = 40;
-	int dy = 20;
-	int second = 0;
-	char player;
+	//state variables
+	int dx = 60; // x location (0 to 121)
+	int dy = 27; // y location (0 to 54)
+	char player = 'A';
+	//joystick variables
 	int left;
 	int right;
 	int up;
 	int down;
-	int decisecond = 0;
-	int x=2000,y=2000,z=2000;
+	//accelerometer variables
+	int x=2000,y=2000,z=2000,sample = 0;
 
-	char xbuf[15];
-	char ybuf[15];
+	char xbuf[1];
 	char output[4];
-	char a[1];
-	int started = 0; // started running or not
-	int lap = 0; // in the lap state or not
 	
-	uint8 reg_addr 		= ge_TS_LM75_TEMP_ADDR;           
-
 	init_gpio();
-    /****************************************/
-	/* Setup ADC0 on M52259 Tower Board        */
-    /****************************************/
-    /* Setting PortAN0 as ADC functionality */
-    MCF_GPIO_PANPAR |= MCF_GPIO_PANPAR_PANPAR3 
-					  | MCF_GPIO_PANPAR_PANPAR2 
-					  | MCF_GPIO_PANPAR_PANPAR1
-					  | MCF_GPIO_PANPAR_PANPAR0;
-    
-    /****************************************/
-    /* Setup ADC Module					    */
-	/****************************************/
+	init_accel();
+	init_joy();	
+	init_lcd();                                         
 
-	/* Initialize the CRTL1 register to 0's with SMODE = Once Sequential = 000 */
-    MCF_ADC_CTRL1 = 0 | MCF_ADC_CTRL1_SMODE(0);
-
-    /* Setting divisor in CTRL2 register */
-    MCF_ADC_CTRL2 = MCF_ADC_CTRL2_DIV(3);
-
-    /* Setting Power Register appropriately - PUDELAY & clear PD0*/
-    MCF_ADC_POWER = MCF_ADC_POWER_PUDELAY(4);
-
-    /* Set AN0 to sample channel 3 once.  Note we will only look 	*/
-    /* at the result of sample 0 even though the ADC will take  	*/
-    /* an 8 sample scan 											*/
-    MCF_ADC_ADLST1 = 0 | MCF_ADC_ADLST1_SAMPLE0(0)
-						| MCF_ADC_ADLST1_SAMPLE1(1)
-						| MCF_ADC_ADLST1_SAMPLE2(2)
-						| MCF_ADC_ADLST1_SAMPLE3(3);
-
-	/* Clear stop bit */
-	MCF_ADC_CTRL1 &= ~MCF_ADC_CTRL1_STOP0;
-	
-	init_joy();
-//	i2c_init();
-	
-	init_lcd();                                         // initialize LCD display
-
-
-    //Loop program
   	while (1){
-
+		/* ACCELEROMETER CODE */
 		/* Toggle the LED's */
 		MCF_GPIO_PORTTC = ~MCF_GPIO_PORTTC;
-
 		/* Clear stop bit */
 		MCF_ADC_CTRL1 &= ~MCF_ADC_CTRL1_STOP0;
-	
 		/* Set start bit */
 		MCF_ADC_CTRL1 |= MCF_ADC_CTRL1_START0;
-	
 		/* Waiting for the last "Ready" bit to be set so we don't start the next scan to early*/
 		while (!(MCF_ADC_ADSTAT & MCF_ADC_ADSTAT_RDY7));
-	
 		/* Toggle the LED's */
 		MCF_GPIO_PORTTC = ~MCF_GPIO_PORTTC;
-
 		x = MCF_ADC_ADRSLT(0) >> 3;
 		y = MCF_ADC_ADRSLT(1) >> 3;
 		z = MCF_ADC_ADRSLT(2) >> 3;
 		sample = MCF_ADC_ADRSLT(3) >> 3;
-	
 
-		//myprintf("Debug:  X=%d, Y=%d, Z=%d, POT=%d\r", x,y,z,sample);
+		// get rid of this later
+		myprintf("Debug:  X=%d, Y=%d, Z=%d, POT=%d\r", x,y,z,sample);
   		
   		left = get_lt_sw_v2();
   		right = get_rt_sw_v2();
@@ -277,54 +260,50 @@ int main(void)
   		if(left)
   		{  			
   	  		grphErase();
-			dx--;		
+			if(dx>0)dx--;		
 		}
   		
   		if(right)
   		{
   	  		grphErase();
-			dx++;	
+			if(dx<121)dx++;	
   		}
   		
   		if(down)
   		{
   	  		grphErase();
-			dy++;	
+			if(dy<54)dy++;	
   		}
   		
   		if(up)
   		{
   	  		grphErase();
-			dy--; 
+			if(dy>0)dy--;
   		}
-  		/*
-  		sprintf(xbuf,"%d",dx);
-  		sprintf(ybuf,"%d",dy);
+  		
+  		sprintf(xbuf,"A");  		
   		output[0] = xbuf[0];
   		output[1] = xbuf[1];
   		output[2] = xbuf[2];
   		output[3] = xbuf[3];
-		//grphText(20,10,FONT_NINE_DOT,(unsigned char *)output);
-  		output[0] = ybuf[0];
-  		output[1] = ybuf[1];
-  		output[2] = ybuf[2];
-  		output[3] = ybuf[3];*/
-  		a[0] = 'A';
-		grphText(dx,dy,FONT_NINE_DOT,(unsigned char*)a);
+		grphText(dx,dy,FONT_NINE_DOT,(unsigned char *)output);
 		grphUpdate(SCRN_TOP,SCRN_BOTTOM);
 
-  		
+
+  		// below is from lab 4
+
 		/*if(second < 10) {
 			output[0] = '0';
 			output[1] = mybuf[0];
 		} else {
 			output[0] = mybuf[0];
 			output[1] = mybuf[1];
-		}*/
+		}
+		
 		
 		//
 		
-  		/*
+  		
   		//Keep internal timer
   		if(started) {
   			//cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
@@ -399,8 +378,8 @@ int main(void)
 			} else {
 				lap = lap ? 0 : 1;
 			}
-  		}
-  		*/
-
+  		}*/
+  		
+		
   	}
 }
