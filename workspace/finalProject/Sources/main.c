@@ -174,8 +174,8 @@ int main(void)
 	// 0 to 121
 	// 0 to 54
 	//Initiate variables
-	int dx = 121;
-	int dy = 54;
+	int dx = 121; // x location
+	int dy = 54; // y location
 	int second = 0;
 	char player;
 	int left;
@@ -257,6 +257,9 @@ int main(void)
 		z = MCF_ADC_ADRSLT(2) >> 3;
 		sample = MCF_ADC_ADRSLT(3) >> 3;
 
+
+
+// change after here.
 		myprintf("Debug:  X=%d, Y=%d, Z=%d, POT=%d\r", x,y,z,sample);
   		
   		left = get_lt_sw_v2();
@@ -297,7 +300,8 @@ int main(void)
 		grphUpdate(SCRN_TOP,SCRN_BOTTOM);
 
 
-  		
+  		// below is from lab 4
+
 		/*if(second < 10) {
 			output[0] = '0';
 			output[1] = mybuf[0];
@@ -309,7 +313,7 @@ int main(void)
 		
 		//
 		
-  		/*
+  		
   		//Keep internal timer
   		if(started) {
   			//cpu_pause(10000); //pause for a tenth of a second. Not exactly accurage b/c rest of code takes time to run. In theory it's 100000
@@ -384,8 +388,8 @@ int main(void)
 			} else {
 				lap = lap ? 0 : 1;
 			}
-  		}
-  		*/
+  		}*/
+  		
 		
   	}
 }
