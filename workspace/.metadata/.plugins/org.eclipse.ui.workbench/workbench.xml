@@ -8,7 +8,7 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="310" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.freescale.analysis.analysisResultsActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="com.freescale.cdt.debug.cw.core.ui.actions.refresh" itemType="typeToolBarContribution" x="38" y="22"/>
@@ -41,7 +41,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/johnny/Desktop/Dropbox/Study/EE 357/Lab/workspace/finalProject/Sources/main.c" title="main.c" tooltip="finalProject/Sources/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/finalProject/Sources/main.c"/>
-<editorState selectionLength="0" selectionOffset="74"/>
+<editorState selectionLength="0" selectionOffset="3580"/>
 </editor>
 </editors>
 <views>
@@ -74,7 +74,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -90,6 +89,13 @@
 </view>
 <view id="com.freescale.core.ide.projectsview.ProjectsView" partName="CodeWarrior Projects">
 <viewState horizontalPosition="0" verticalPosition="0">
+<expanded>
+<element path="finalProject  :  MCF52259_Console_Internal_RAM"/>
+<element path="finalProject  :  MCF52259_Console_Internal_RAM--restore_state_delimiter--Sources"/>
+</expanded>
+<selection>
+<element path="C:/Users/johnny/Desktop/Dropbox/Study/EE 357/Lab/workspace/finalProject/Sources/main.c"/>
+</selection>
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
@@ -336,13 +342,9 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/Sources/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/Sources/lcd128x64.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Lab4/Sources/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/finalProject/Sources/main.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="7574" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="7574" y="0"/>
-</item>
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
@@ -484,8 +486,14 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="6792" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="6934" y="0"/>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="2">
+<position/>
+</item>
+<item active="true" historyLabel="main.c" index="3">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -505,14 +513,14 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lcd128x64.c" tooltip="finalProject/Sources/lcd128x64.c">
-<persistable path="/finalProject/Sources/lcd128x64.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="finalProject/Sources/main.c">
+<persistable path="/finalProject/Sources/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Lab4/Sources/main.c">
 <persistable path="/Lab4/Sources/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="finalProject/Sources/main.c">
-<persistable path="/finalProject/Sources/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lcd128x64.c" tooltip="finalProject/Sources/lcd128x64.c">
+<persistable path="/finalProject/Sources/lcd128x64.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="uart_support.c" tooltip="finalProject/Sources/uart_support.c">
 <persistable path="/finalProject/Sources/uart_support.c"/>
