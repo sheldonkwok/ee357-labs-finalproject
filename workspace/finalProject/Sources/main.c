@@ -263,13 +263,14 @@ int main(void)
 	int menuAnimation;
 	int i,j,count;
 	int score,highscore;
-	int bomb = 0;
+	int bomb,bombScore;
 		
 	//Initiate player stats
 	player.x = 60; player.y = 54; player.alive = 1; player.misc = 0; player.fired = 0; player.graphic[0] = 'A'; player.graphic[1] = 0;
 	score = 0;
 	xprev = 2000;
-	
+	bomb = 0;
+	bombScore = 0;	
 	//Initiate enemy variables
 	for(i = 0; i < 8; i++) {
 		enemies[i].graphic[0] = 'Y'; enemies[i].graphic[1] = 0;
@@ -320,7 +321,7 @@ int main(void)
 				score = 0;
 				
 				//Reset game values
-				player.x = 60; player.y = 54; player.alive = 1; player.misc = 1; player.fired = 0; bomb = 1;
+				player.x = 60; player.y = 54; player.alive = 1; player.misc = 1; player.fired = 0; bomb = 1; bombScore = 0;
 				for(i = 0; i < 8; i++) {
 					enemies[i].x = i*16 + 4; enemies[i].y = 2; enemies[i].alive = 0;  enemies[i].fired = 0;
 				}
@@ -365,9 +366,10 @@ int main(void)
 			}
 			grphUpdate(SCRN_TOP,SCRN_BOTTOM);
 		} else {
+			//Bomb
 			if((xprev-x > 250 || xprev-x < -250) && bomb) {
-				for(j = 0; j < 8; j++) { enemies[j].alive = 0;}
-				score += 8;
+				for(j = 0; j < 8; j++) { bombScore += enemies[j].alive; enemies[j].alive = 0;}
+				score += bombScore;
 				bomb = 0;
 				grphErase();
 			}
