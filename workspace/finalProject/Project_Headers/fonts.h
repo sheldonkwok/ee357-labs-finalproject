@@ -13,7 +13,7 @@
 #include "lcd128x64.h"
 /* select desired fonts. (Simply comment out those not needed) */
 //#define EN_FONT_FIVE_DOT                // 0
-//#define EN_FONT_SIX_DOT                 // 1
+#define EN_FONT_SIX_DOT                 // 1
 #define EN_FONT_SEVEN_DOT               // 2
 #define EN_FONT_NINE_DOT                // 3 
 //#define EN_FONT_TEN_DOT                 // 4
